@@ -12,14 +12,14 @@ import ServicesV8 from '@/components/shared/ServicesV8'
 import Video from '@/components/shared/Video'
 
 export const metadata = {
-  title: 'Rivor | Design Agency',
+  title: 'Peter Adetula',
 }
 
 const Home = () => {
   return (
     <LayoutOne>
       <Hero />
-      <Video />
+      {/* <Video /> */}
       <About />
       <Portfolio />
       <ClientsV3 />
