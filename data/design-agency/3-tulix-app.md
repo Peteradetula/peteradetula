@@ -1,7 +1,7 @@
 ---
-title: 'Graphic.Ai'
-description: 'Introducing our latest creation the Best Sellers No-Code Website! Seamlessly blending creativity and functionality, this innovative platform empowers businesses to showcase their top products with style and efficiency. Say goodbye to coding hassles and hello to a user-friendly interface.'
-thumbnail: '/images/services/services-3.png'
+title: 'Tulix App'
+description: 'Create a platform where users globally to instantly pay a business in Kenya from anywhere in the world using mobile money and allow users share money on the app with their friends and family'
+thumbnail: '/images/services/services-1.png'
 coverImage: '/images/services/services-details-img.png'
 badge: 'Project case study'
 ---

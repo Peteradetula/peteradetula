@@ -7,6 +7,7 @@ const Hero = () => {
     <section className="relative overflow-hidden pb-20 pt-[137px] md:pb-[100px] md:pt-[160px] xl:pt-[180px]">
       <HeroGradientAnimation />
       <div className="container">
+        {/* <div className="text-center"> */}
         <RevealWrapper className="text-center">
           <div className="rv-badge mb-5 md:mb-10">
             <span className="rv-badge-text">Open for new work</span>
@@ -47,6 +48,7 @@ const Hero = () => {
             </li>
           </ul>
         </RevealWrapper>
+        {/* </div> */}
       </div>
     </section>
   )

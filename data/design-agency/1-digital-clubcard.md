@@ -1,16 +1,14 @@
 ---
-title: 'Staticmania'
-description: 'Introducing our latest creation the Best Sellers No-Code Website! Seamlessly blending creativity and functionality, this innovative platform empowers businesses to showcase their top products with style and efficiency. Say goodbye to coding hassles and hello to a user-friendly interface.'
-thumbnail: '/images/services/services-6.png'
+title: 'Digital Clubcard'
+description: 'There was a business ambition to reduce the volume of Physical Clubcard that are issued to customers by 80%.'
+thumbnail: '/images/services/services-1.png'
 coverImage: '/images/services/services-details-img.png'
 badge: 'Project case study'
 ---
 
 ### Learn about the project - project overview
 
-Introducing our latest creation: the 'Best Sellers No-Code Website'! Seamlessly blending creativity and functionality, this innovative platform empowers businesses to showcase their top products with style and efficiency. Say goodbye to coding hassles and hello to a user-friendly interface.
-
-Introducing our latest creation: the 'Best Sellers No-Code Website'! Seamlessly blending creativity and functionality, this innovative platform empowers businesses to showcase their top products with style and efficiency. Say goodbye to coding hassles and hello to
+The Problem: Loss or damage of cards results as customers order for Plastic Clubcard. In Q2 21, we had 191k visits to order the card via the button on the registration page whereas in Q4 (change already implemented) we had around 76k visits to order the card journey from the registration confirmation page. We need to track the new link for ordering a Clubcard on the registration page.
 
 ### Designing the User Experience
 

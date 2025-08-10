@@ -29,7 +29,6 @@ const About = ({ marquee = false }: AboutProps) => {
             <RevealWrapper className="relative w-full overflow-hidden">
               <div className="absolute left-0 top-0 z-10 h-full w-20 bg-gradient-to-r from-backgroundBody to-transparent dark:from-dark"></div>
               <div className="absolute right-0 top-0 z-10 h-full w-20 bg-gradient-to-l from-backgroundBody to-transparent dark:from-dark"></div>
-
               <CompanyLogosMarquee />
             </RevealWrapper>
           </div>
@@ -44,14 +43,19 @@ const About = ({ marquee = false }: AboutProps) => {
         <div className="flex flex-col items-center justify-center lg:items-stretch lg:justify-normal">
           <CircleTextAnimation />
           <h3 className="mx-auto mt-[34px]" ref={revealRef}>
-            We specialize in designing cutting-edge web <br className="hidden sm:block" />
+            {/* We specialize in designing cutting-edge web <br className="hidden sm:block" />
             experiences that flawlessly blend creativity with <br />
             innovative technology.
             <br />
             <br />
             We provide customized solutions for <br className="hidden sm:block" />
             enhancing your existing site or building <br className="hidden sm:block" />a brand-new digital platform from
-            the ground up
+            the ground up */}
+            I&apos;m an experienced product designer and UK&apos;s Global Talent (Tier 1) with a strong interest in
+            consumer psychology and how good design drives business performance. Over the past few years, I&apos;ve
+            worked on projects across a range of sectors, creating solutions that balance user needs with business
+            goals. I&apos;m passionate about building products that are usable, inclusive, enjoyable, and genuinely
+            useful.
           </h3>
         </div>
       </div>

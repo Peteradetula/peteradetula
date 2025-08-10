@@ -1,7 +1,7 @@
 ---
-title: 'Business Card'
-description: 'Unlock the power of seamless design with our Drag-and-Drop Builder! Effortlessly create stunning websites without writing a single line of code. Perfect for beginners and professionals alike, this intuitive platform lets you focus on creativity while we handle the technicalities.'
-thumbnail: '/images/services/services-7.png'
+title: 'Shelly AI'
+description: 'AI-powered assistant that provides instant, accurate, and secure access to critical knowledge across Shell’s ecosystem. By reducing dependency on SMEs and streamlining information retrieval, Virtual SME enhances productivity, optimizes workflows, and empowers employees to work smarter and faster. Allowing a system that can access all knowledge required based on your role  while maintaining and complying with company security'
+thumbnail: '/images/services/services-1.png'
 coverImage: '/images/services/services-details-img.png'
 badge: 'Project case study'
 ---

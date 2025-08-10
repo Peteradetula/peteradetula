@@ -1,8 +1,9 @@
 'use client'
-import textCircleDarkLogo from '@/public/images/icons/text-circle-dark-logo.png'
-import textCircleLogo from '@/public/images/icons/text-circle-logo.png'
+
 import Image from 'next/image'
 import { useEffect, useRef, useState } from 'react'
+import textCircleLogo from '@/public/images/icons/text-circle-logo.png'
+import textCircleDarkLogo from '@/public/images/icons/text-circle-dark-logo.png'
 
 const CircleTextAnimation = () => {
   const textRef = useRef<HTMLDivElement>(null)
