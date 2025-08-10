@@ -2,7 +2,7 @@
 
 import { gsap } from 'gsap'
 import Link from 'next/link'
-import { usePathname } from 'next/navigation'
+import { usePathname, useRouter } from 'next/navigation'
 import { forwardRef, useEffect, useRef, useState } from 'react'
 
 interface MenuItemProps {
@@ -15,70 +15,74 @@ interface MenuItemProps {
 const menuItems: MenuItemProps[] = [
   {
     title: 'Home',
-    url: '#',
-    items: [
-      { title: 'Homepage 01 - Design Agency', url: '/' },
-      { title: 'Homepage 02- Digital Solutions Agency', url: '/home-02' },
-      { title: 'Homepage 03 -  Portfolio', url: '/home-03' },
-      { title: 'Homepage 04 -  Photography Studio', url: '/home-04' },
-      { title: 'Homepage 05 -  SEO Agency', url: '/home-05' },
-      { title: 'Homepage 06 -  Creative Agency', url: '/home-06' },
-      { title: 'Homepage 07 -  Design Studio', url: '/home-07' },
-      { title: 'Homepage 08 -  Business Solutions', url: '/home-08' },
-      { title: 'Homepage 09 -  Personal Branding', url: '/home-09' },
-      { title: 'Homepage 10 -  Full Service Agency', url: '/home-10' },
-      { title: 'Homepage 11 -  Video Production', url: '/home-11' },
-      { title: 'Homepage 12 -  AI Agency', url: '/home-12' },
-      { title: 'Homepage 13 -  Travel Agency', url: '/home-13' },
-      { title: 'Homepage 14 -  Film Production Agency', url: '/home-14' },
-      { title: 'Homepage 15 -  Branding Agency', url: '/home-15' },
-      { title: 'Homepage 16 -  Marketing Agency', url: '/home-16' },
-      { title: 'Homepage 17 -  App Development Agency', url: '/home-17' },
-      { title: 'Homepage 18 -  Copywriting Agency', url: '/home-18' },
-      { title: 'Homepage 19 -  Brand Strategy', url: '/home-19' },
-      { title: 'Homepage 20 -  Social Media Agency', url: '/home-20' },
-      { title: 'Homepage 21 -  Law Firm Agency', url: '/home-21' },
-      { title: 'Homepage 22 -  Event Planning Agency', url: '/home-22' },
-      { title: 'Homepage 23 -  Insurance Agency', url: '/home-23' },
-      { title: 'Homepage 24 -  Management Agency', url: '/home-24' },
-      { title: 'Homepage 25 -  Communications Agency', url: '/home-25' },
-    ],
+    url: '/',
+    // items: [
+    //   { title: 'Homepage 01 - Design Agency', url: '/' },
+    //   { title: 'Homepage 02- Digital Solutions Agency', url: '/home-02' },
+    //   { title: 'Homepage 03 -  Portfolio', url: '/home-03' },
+    //   { title: 'Homepage 04 -  Photography Studio', url: '/home-04' },
+    //   { title: 'Homepage 05 -  SEO Agency', url: '/home-05' },
+    //   { title: 'Homepage 06 -  Creative Agency', url: '/home-06' },
+    //   { title: 'Homepage 07 -  Design Studio', url: '/home-07' },
+    //   { title: 'Homepage 08 -  Business Solutions', url: '/home-08' },
+    //   { title: 'Homepage 09 -  Personal Branding', url: '/home-09' },
+    //   { title: 'Homepage 10 -  Full Service Agency', url: '/home-10' },
+    //   { title: 'Homepage 11 -  Video Production', url: '/home-11' },
+    //   { title: 'Homepage 12 -  AI Agency', url: '/home-12' },
+    //   { title: 'Homepage 13 -  Travel Agency', url: '/home-13' },
+    //   { title: 'Homepage 14 -  Film Production Agency', url: '/home-14' },
+    //   { title: 'Homepage 15 -  Branding Agency', url: '/home-15' },
+    //   { title: 'Homepage 16 -  Marketing Agency', url: '/home-16' },
+    //   { title: 'Homepage 17 -  App Development Agency', url: '/home-17' },
+    //   { title: 'Homepage 18 -  Copywriting Agency', url: '/home-18' },
+    //   { title: 'Homepage 19 -  Brand Strategy', url: '/home-19' },
+    //   { title: 'Homepage 20 -  Social Media Agency', url: '/home-20' },
+    //   { title: 'Homepage 21 -  Law Firm Agency', url: '/home-21' },
+    //   { title: 'Homepage 22 -  Event Planning Agency', url: '/home-22' },
+    //   { title: 'Homepage 23 -  Insurance Agency', url: '/home-23' },
+    //   { title: 'Homepage 24 -  Management Agency', url: '/home-24' },
+    //   { title: 'Homepage 25 -  Communications Agency', url: '/home-25' },
+    // ],
   },
   {
     title: 'About',
-    url: '#',
-    items: [
-      { title: 'About', url: '/about' },
-      { title: 'About 02', url: '/about-02' },
-    ],
+    url: '/about',
+    // items: [
+    //   { title: 'About', url: '/about' },
+    //   { title: 'About 02', url: '/about-02' },
+    // ],
   },
   {
     title: 'Services',
-    url: '#',
-    items: [
-      { title: 'Services', url: '/services' },
-      { title: 'Services Details', url: '/services/media' },
-    ],
+    url: '/services',
+    // items: [
+    //   { title: 'Services', url: '/services' },
+    //   { title: 'Services Details', url: '/services/media' },
+    // ],
   },
   {
     title: 'Blog',
-    url: '#',
-    items: [
-      { title: 'AI Blog', url: '/ai-blog' },
-      { title: 'SEO Blog', url: '/seo-blog' },
-      { title: 'Blog Details', url: '/seo-blog/the-evolution-of-minimalist-design' },
-    ],
+    url: '/blog',
+    // items: [
+    //   { title: 'AI Blog', url: '/ai-blog' },
+    //   { title: 'SEO Blog', url: '/seo-blog' },
+    //   { title: 'Blog Details', url: '/seo-blog/the-evolution-of-minimalist-design' },
+    // ],
   },
   {
     title: 'Projects',
-    url: '#',
-    items: [
-      { title: 'Design Agency', url: '/design-agency' },
-      { title: 'Digital Agency', url: '/digital-agency/project' },
-      { title: 'Case Study', url: '/portfolio-agency/case-study' },
-      { title: 'Project Details', url: '/design-agency/project-nexus' },
-      { title: 'Project Details 02', url: '/digital-agency/project/project-nexus' },
-    ],
+    url: '/projects',
+    // items: [
+    //   { title: 'Design Agency', url: '/design-agency' },
+    //   { title: 'Digital Agency', url: '/digital-agency/project' },
+    //   { title: 'Case Study', url: '/portfolio-agency/case-study' },
+    //   { title: 'Project Details', url: '/design-agency/project-nexus' },
+    //   { title: 'Project Details 02', url: '/digital-agency/project/project-nexus' },
+    // ],
+  },
+  {
+    title: 'Contact',
+    url: '/contact',
   },
 ]
 
@@ -89,6 +93,7 @@ interface MenuListProps {
 export const MenuList = forwardRef<HTMLUListElement, MenuListProps>((props, ref) => {
   const { onItemClick } = props
   const pathname = usePathname()
+  const router = useRouter()
   const [activeItems, setActiveItems] = useState<string[]>([])
   const [initialLoad, setInitialLoad] = useState(true)
   const dropdownRefsMap = useRef(new Map<string, HTMLUListElement | null>())
@@ -208,7 +213,12 @@ export const MenuList = forwardRef<HTMLUListElement, MenuListProps>((props, ref)
             href={item.url}
             onClick={(e) => {
               e.preventDefault()
-              handleDropdownClick(item.title)
+              if (item.items) {
+                handleDropdownClick(item.title)
+              } else {
+                router.push(item.url)
+                onItemClick && onItemClick()
+              }
             }}
             className="menu-list-item-text text-[28px] leading-[70px] text-white md:text-[42px] xl:text-[56px] xl:leading-[90px]">
             {item.title}

@@ -337,10 +337,10 @@ export default function Navbar() {
           <MenuList ref={menuItemsRef} onItemClick={closeMenu} />
         </div>
         <div className="menu-footer fixed bottom-0 w-full border-t border-white border-opacity-10 max-lg:hidden lg:block">
-          <div className="menu-footer-content mx-auto flex max-w-[300px] flex-col justify-between py-8 sm:max-w-[400px] md:max-w-[600px] md:flex-row lg:max-w-[900px] xl:max-w-[1130px]">
-            <p className="mb-4 w-full text-sm text-white md:mb-0 md:w-auto">
+          <div className="menu-footer-content mx-auto flex max-w-[300px] flex-col justify-center py-8 sm:max-w-[400px] md:max-w-[600px] md:flex-row lg:max-w-[900px] xl:max-w-[1130px]">
+            {/* <p className="mb-4 w-full text-sm text-white md:mb-0 md:w-auto">
               2261 Market Street #5039 San Francisco, CA 94114
-            </p>
+            </p> */}
             <SocialIcons />
           </div>
         </div>
