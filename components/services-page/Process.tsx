@@ -8,7 +8,7 @@ const Process = () => {
       <div className="container">
         <TextAppearAnimation>
           <h3 className="text-appear lg:text[56px] mb-20 text-center max-md:text-3xl md:text-6xl lg:leading-[1.2] lg:tracking-[-1.68px]">
-            How do we do it?
+            How I do it?
           </h3>
         </TextAppearAnimation>
 

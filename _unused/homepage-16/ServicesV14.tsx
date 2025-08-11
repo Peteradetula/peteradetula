@@ -23,14 +23,14 @@ const ServicesV14 = () => {
         </RevealWrapperV2>
         <TextAppearAnimation02>
           <h2 className="text-appear mb-3">
-            Marketing solutions designed for <br />
+            Authentic solutions designed for <br />
             <i className="font-instrument"> maximum impact</i>
           </h2>
         </TextAppearAnimation02>
         <TextAppearAnimation>
           <p className="text-appear mx-auto lg:max-w-[770px]">
-            Our marketing solutions boost engagement and ROI with targeted campaigns, improving brand visibility through
-            SEO and social media.
+            I craft solutions that boost engagement and ROI with targeted campaigns, improving brand visibility through
+            psychology of design and social media.
           </p>
         </TextAppearAnimation>
       </div>
@@ -96,18 +96,18 @@ const ServicesV14 = () => {
           </RevealWrapper>
         ))}
       </div>
-      <RevealWrapper as="ul" className="mx-auto mt-7 flex justify-center max-md:w-full max-md:px-4 md:mt-14">
+      {/* <RevealWrapper as="ul" className="mx-auto mt-7 flex justify-center max-md:w-full max-md:px-4 md:mt-14">
         <li className="mx-auto block w-full text-center md:inline-block md:w-auto">
           <Link href="/services" className="rv-button rv-button-white block md:inline-block">
             <div className="rv-button-top">
-              <span>Explore Our Services</span>
+              <span>Explore My Services</span>
             </div>
             <div className="rv-button-bottom">
-              <span>Explore Our Services</span>
+              <span>Explore My Services</span>
             </div>
           </Link>
         </li>
-      </RevealWrapper>
+      </RevealWrapper> */}
     </section>
   )
 }
