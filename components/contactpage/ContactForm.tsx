@@ -11,17 +11,40 @@ const ContactForm = () => {
     budget: '40k',
     message: '',
   })
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle')
+
+  const formSpreeID: string = (process.env.NEXT_PUBLIC_FORMSPREE_ID as string) || 'mldlzeae'
+
+  // console.log('FormSpree ID: ', formSpreeID)
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target
     setFormData((prev) => ({ ...prev, [name]: value }))
   }
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    console.log('Form Data Submitted:', formData)
-    alert(`${formData.name} Your Data Has Been Submited`)
-    // Add your form submission logic here (e.g., API call)
+    setIsSubmitting(true)
+
+    try {
+      const response = await fetch(`https://formspree.io/f/${formSpreeID}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      })
+
+      if (response.ok) {
+        setSubmitStatus('success')
+        setFormData({ name: '', company: '', email: '', service: 'UI/UX', budget: '40k', message: '' })
+      } else {
+        setSubmitStatus('error')
+      }
+    } catch (error) {
+      setSubmitStatus('error')
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   return (
@@ -194,13 +217,26 @@ const ContactForm = () => {
               required></textarea>
           </div>
 
+          {submitStatus === 'success' && (
+            <div className="col-span-full text-center text-green-600 dark:text-green-400">
+              Thank you! Your message has been sent successfully.
+            </div>
+          )}
+          {submitStatus === 'error' && (
+            <div className="col-span-full text-center text-red-600 dark:text-red-400">
+              Sorry, there was an error sending your message. Please try again.
+            </div>
+          )}
           <div className="col-span-full sm:mt-14 md:mx-auto">
-            <button type="submit" className="rv-button rv-button-primary block w-full md:inline-block md:w-auto">
+            <button
+              type="submit"
+              disabled={isSubmitting}
+              className="rv-button rv-button-primary block w-full disabled:opacity-50 md:inline-block md:w-auto">
               <div className="rv-button-top">
-                <span>Send Message</span>
+                <span>{isSubmitting ? 'Sending...' : 'Send Message'}</span>
               </div>
               <div className="rv-button-bottom">
-                <span className="text-nowrap">Send Message</span>
+                <span className="text-nowrap">{isSubmitting ? 'Sending...' : 'Send Message'}</span>
               </div>
             </button>
           </div>
