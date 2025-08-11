@@ -1,5 +1,5 @@
-import PortfolioItems from '@/components/projectpage-02/PortfolioItems'
-import ProjectHeroV2 from '@/components/projectpage-02/ProjectHeroV2'
+import PortfolioItems from '@/_unused/projectpage-02/PortfolioItems'
+import ProjectHeroV2 from '@/_unused/projectpage-02/ProjectHeroV2'
 import GradientCta from '@/components/shared/GradientCta'
 import LayoutOne from '@/components/shared/LayoutOne'
 

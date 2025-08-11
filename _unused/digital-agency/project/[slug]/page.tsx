@@ -1,5 +1,5 @@
-import { ProjectsDataType } from '@/components/projectpage-02/PortfolioItems'
-import ProjectDetails02BodyContent from '@/components/projectpage-02/ProjectDetails02BodyContent'
+import { ProjectsDataType } from '@/_unused/projectpage-02/PortfolioItems'
+import ProjectDetails02BodyContent from '@/_unused/projectpage-02/ProjectDetails02BodyContent'
 import CTA from '@/components/shared/CTA'
 import CtaImageSlider from '@/components/shared/CtaImageSlider'
 import LayoutOne from '@/components/shared/LayoutOne'

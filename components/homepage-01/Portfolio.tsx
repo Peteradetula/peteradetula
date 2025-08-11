@@ -18,7 +18,7 @@ const Portfolio = () => {
         <div className="mb-10 flex flex-col items-start justify-center gap-x-10 gap-y-6 md:mb-20 md:flex-row md:items-end lg:justify-start">
           <div className="flex-1">
             <RevealWrapper className="rv-badge reveal-me">
-              <span className="rv-badge-text">Our Portfolio</span>
+              <span className="rv-badge-text">My Portfolio</span>
             </RevealWrapper>
             <TextAppearAnimation>
               <h2 className="text-appear mt-3 md:mt-5">
@@ -30,18 +30,18 @@ const Portfolio = () => {
           <div className="flex-1">
             <TextAppearAnimation>
               <p className="text-appear md:text-right">
-                Discover how Rivor brings brands to life with impactful digital solutions.Our portfolio showcases
-                quality and creativity in every project.
+                Discover how I bring brands to life with impactful digital solutions. My portfolio showcases quality and
+                creativity in every project.
               </p>
             </TextAppearAnimation>
             <RevealWrapper as="ul" className="reveal-me mt-5 justify-self-end max-md:w-full md:mt-10">
               <li className="mx-auto block w-full text-center md:inline-block md:w-auto">
-                <Link href="/design-agency" className="rv-button rv-button-white block md:inline-block">
+                <Link href="/projects" className="rv-button rv-button-white block md:inline-block">
                   <div className="rv-button-top">
-                    <span>Explore Our Portfolio</span>
+                    <span>Explore My Portfolio</span>
                   </div>
                   <div className="rv-button-bottom">
-                    <span>Explore Our Portfolio</span>
+                    <span>Explore My Portfolio</span>
                   </div>
                 </Link>
               </li>
@@ -53,7 +53,7 @@ const Portfolio = () => {
             <RevealWrapper
               className="reveal-me group relative col-span-12 cursor-pointer md:col-span-6"
               key={project.slug}>
-              <Link href={`/design-agency/${project.slug}`} className="h-full w-full">
+              <Link href={`/projects/${project.slug}`} className="h-full w-full">
                 <figure className="overflow-hidden md:h-[603px]">
                   <Image
                     width={553}

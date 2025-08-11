@@ -1,4 +1,4 @@
-import WhyChooseUsV6 from '@/components/homepage-17/WhyChooseUsV6'
+import WhyChooseUsV6 from '@/_unused/homepage-17/WhyChooseUsV6'
 import ServiceContent from '@/components/services-page/ServiceContent'
 import CTA from '@/components/shared/CTA'
 import CtaImageSlider from '@/components/shared/CtaImageSlider'

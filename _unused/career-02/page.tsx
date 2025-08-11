@@ -1,5 +1,5 @@
-import CareerHeroV2 from '@/components/careerpage-02/CareerHeroV2'
-import Counter from '@/components/careerpage-02/Counter'
+import CareerHeroV2 from '@/_unused/careerpage-02/CareerHeroV2'
+import Counter from '@/_unused/careerpage-02/Counter'
 import Jobs from '@/components/careerpage/Jobs'
 import Community from '@/components/shared/Community'
 import CTA from '@/components/shared/CTA'

@@ -1,7 +1,7 @@
 'use client'
 import useReveal from '@/hooks/useReveal'
 import RevealWrapper from '../animation/RevealWrapper'
-import CompanyLogosMarquee from '../homepage-02/CompanyLogosMarquee'
+import CompanyLogosMarquee from '../../_unused/homepage-02/CompanyLogosMarquee'
 import CircleTextAnimation from './CircleTextAnimation'
 
 interface AboutProps {
@@ -52,10 +52,12 @@ const About = ({ marquee = false }: AboutProps) => {
             enhancing your existing site or building <br className="hidden sm:block" />a brand-new digital platform from
             the ground up */}
             I&apos;m an experienced product designer and UK&apos;s Global Talent (Tier 1) with a strong interest in
-            consumer psychology and how good design drives business performance. Over the past few years, I&apos;ve
-            worked on projects across a range of sectors, creating solutions that balance user needs with business
-            goals. I&apos;m passionate about building products that are usable, inclusive, enjoyable, and genuinely
-            useful.
+            consumer psychology and how good design drives business performance.
+            <br />
+            <br />
+            Over the past few years, I&apos;ve worked on projects across a range of sectors, creating solutions that
+            balance user needs with business goals. I&apos;m passionate about building products that are usable,
+            inclusive, enjoyable, and genuinely useful.
           </h3>
         </div>
       </div>

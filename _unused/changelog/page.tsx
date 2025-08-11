@@ -1,4 +1,4 @@
-import ChangelogBody from '@/components/changelogPage/ChangelogBody'
+import ChangelogBody from '@/_unused/changelogPage/ChangelogBody'
 import CTA from '@/components/shared/CTA'
 import CtaImageSlider from '@/components/shared/CtaImageSlider'
 import LayoutOne from '@/components/shared/LayoutOne'

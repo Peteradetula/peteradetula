@@ -31,7 +31,7 @@ const ServicesV8 = () => {
           <div className="flex-1 max-md:w-full">
             <TextAppearAnimation>
               <p className="text-appear max-w-lg max-md:text-justify md:place-self-end md:text-right">
-                We offer expert digital solutions to boost your brand and online presence. Our services drive growth,
+                I offer expert digital solutions to boost your brand and online presence. My services drive growth,
                 engagement, and success in the digital world.
               </p>
             </TextAppearAnimation>

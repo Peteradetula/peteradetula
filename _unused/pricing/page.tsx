@@ -1,4 +1,4 @@
-import PricingCard from '@/components/homepage-07/PricingCard'
+import PricingCard from '@/_unused/homepage-07/PricingCard'
 import CTA from '@/components/shared/CTA'
 import CtaImageSlider from '@/components/shared/CtaImageSlider'
 import LayoutOne from '@/components/shared/LayoutOne'

@@ -1,8 +1,8 @@
-import AboutV7 from '@/components/homepage-09/AboutV7'
-import HeroV9 from '@/components/homepage-09/HeroV9'
-import MarqueCta from '@/components/homepage-09/MarqueCta'
-import OurAchievement from '@/components/homepage-09/OurAchievement'
-import PersonalProjects from '@/components/homepage-09/PersonalProjects'
+import AboutV7 from '@/_unused/homepage-09/AboutV7'
+import HeroV9 from '@/_unused/homepage-09/HeroV9'
+import MarqueCta from '@/_unused/homepage-09/MarqueCta'
+import OurAchievement from '@/_unused/homepage-09/OurAchievement'
+import PersonalProjects from '@/_unused/homepage-09/PersonalProjects'
 import LayoutOne from '@/components/shared/LayoutOne'
 import ServicesV8 from '@/components/shared/ServicesV8'
 

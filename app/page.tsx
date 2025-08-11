@@ -24,20 +24,20 @@ const Home = () => {
       <Portfolio />
       <ClientsV3 />
       <ServicesV8 />
-      <Community />
+      {/* <Community /> */}
       <FAQ />
       <Testimonial />
       <CTA>
-        Let's chat!
-        <CtaImageSlider
+        Let's chat{' '}
+        {/* <CtaImageSlider
           slides={[
             { id: '1', img: '/images/agent/01.jpg' },
             { id: '2', img: '/images/agent/02.jpg' },
             { id: '3', img: '/images/agent/03.jpg' },
           ]}
-        />
-        with us.
-        <i className="block font-instrument italic max-md:inline-block max-sm:pl-2 sm:mt-10">A virtual coffee?</i>
+        /> */}
+        over
+        <i className="block font-instrument italic max-md:inline-block max-sm:pl-2 sm:mt-10">a virtual coffee?</i>
       </CTA>
     </LayoutOne>
   )
