@@ -1,3 +1,4 @@
+import LetsChat from '@/components/LetsChat/LetsChat'
 import OurProject from '@/components/projectpage/OurProject'
 import ProjectHero from '@/components/projectpage/ProjectHero'
 import GradientCta from '@/components/shared/GradientCta'
@@ -12,7 +13,8 @@ const ProjectPage = () => {
     <LayoutOne>
       <ProjectHero />
       <OurProject />
-      <GradientCta />
+      {/* <GradientCta /> */}
+      <LetsChat />
     </LayoutOne>
   )
 }

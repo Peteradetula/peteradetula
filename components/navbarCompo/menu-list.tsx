@@ -60,15 +60,15 @@ const menuItems: MenuItemProps[] = [
     //   { title: 'Services Details', url: '/services/media' },
     // ],
   },
-  {
-    title: 'Blog',
-    url: '/blog',
-    // items: [
-    //   { title: 'AI Blog', url: '/ai-blog' },
-    //   { title: 'SEO Blog', url: '/seo-blog' },
-    //   { title: 'Blog Details', url: '/seo-blog/the-evolution-of-minimalist-design' },
-    // ],
-  },
+  // {
+  //   title: 'Blog',
+  //   url: '/blog',
+  //   items: [
+  //     { title: 'AI Blog', url: '/ai-blog' },
+  //     { title: 'SEO Blog', url: '/seo-blog' },
+  //     { title: 'Blog Details', url: '/seo-blog/the-evolution-of-minimalist-design' },
+  //   ],
+  // },
   {
     title: 'Projects',
     url: '/projects',

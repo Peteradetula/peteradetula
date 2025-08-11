@@ -13,9 +13,9 @@ const ProjectHero = () => {
           </div>
 
           <h1 className="mb-3 mt-3.5 sm:mb-4 sm:mt-5 lg:mb-7 lg:mt-9">
-            Quality stuff.
+            Quality,{' '}
             <span className="font-instrument italic">
-              In every <br /> project.
+              in every <br /> project.
             </span>
           </h1>
         </RevealWrapper>
