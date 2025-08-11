@@ -8,6 +8,7 @@ import youtubeLogo from '@/public/images/icons/youtube.svg'
 import youtubeDarkLogo from '@/public/images/icons/youtube-dark.svg'
 import facebookLogo from '@/public/images/icons/facebook.svg'
 import facebookDarkLogo from '@/public/images/icons/facebook-dark.svg'
+import { LinkedinOutlined } from '@ant-design/icons'
 import Link from 'next/link'
 import RevealWrapper from '../animation/RevealWrapper'
 
@@ -21,6 +22,7 @@ interface TeamMember {
     twitter?: string
     facebook?: string
     youtube?: string
+    linkedin?: string
   }
 }
 
@@ -62,6 +64,16 @@ const Team = () => {
               </div>
 
               <ul className="flex gap-5">
+                {selectedMember.socialLinks.linkedin && (
+                  <li>
+                    <Link
+                      href={selectedMember.socialLinks.linkedin}
+                      target="_blank"
+                      className="transition-transform duration-200 ease-in-out hover:-translate-y-1">
+                      <LinkedinOutlined className="!inline" style={{ fontSize: 24 }} />
+                    </Link>
+                  </li>
+                )}
                 {selectedMember.socialLinks.twitter && (
                   <li>
                     <Link
@@ -75,7 +87,7 @@ const Team = () => {
                 )}
                 {selectedMember.socialLinks.facebook && (
                   <li>
-                    <a
+                    <Link
                       href={selectedMember.socialLinks.facebook}
                       target="_blank"
                       className="transition-transform duration-200 ease-in-out hover:-translate-y-1">
@@ -87,12 +99,12 @@ const Team = () => {
                         height={24}
                         className="hidden dark:inline"
                       />
-                    </a>
+                    </Link>
                   </li>
                 )}
                 {selectedMember.socialLinks.youtube && (
                   <li>
-                    <a
+                    <Link
                       href={selectedMember.socialLinks.youtube}
                       target="_blank"
                       className="transition-transform duration-200 ease-in-out hover:-translate-y-1">
@@ -104,7 +116,7 @@ const Team = () => {
                         height={24}
                         className="hidden dark:inline"
                       />
-                    </a>
+                    </Link>
                   </li>
                 )}
               </ul>
@@ -117,7 +129,7 @@ const Team = () => {
         </div>
 
         {/* Team member tabs */}
-        <div className="mt-[30px] flex justify-center gap-6 max-xl:flex-wrap">
+        {/* <div className="mt-[30px] flex justify-center gap-6 max-xl:flex-wrap">
           {teamMembers.map((member) => (
             <div
               key={member.id}
@@ -134,7 +146,7 @@ const Team = () => {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
       </RevealWrapper>
     </section>
   )
