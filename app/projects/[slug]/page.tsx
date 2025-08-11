@@ -1,3 +1,4 @@
+import LetsChat from '@/components/LetsChat/LetsChat'
 import { ProjectType } from '@/components/projectpage/OurProject'
 import ProjectContent from '@/components/projectpage/ProjectContent'
 import ProjectDetailsHero from '@/components/projectpage/ProjectDetailsHero'
@@ -28,18 +29,7 @@ const ProjectDetails = async ({ params }: { params: Promise<{ slug: string }> })
         scale
       />
       <ProjectContent project={project} />
-      <CTA>
-        Let's chat!
-        <CtaImageSlider
-          slides={[
-            { id: '1', img: '/images/agent/01.jpg' },
-            { id: '2', img: '/images/agent/02.jpg' },
-            { id: '3', img: '/images/agent/03.jpg' },
-          ]}
-        />
-        with us.
-        <i className="block font-instrument italic max-md:inline-block max-sm:pl-2 sm:mt-10">A virtual coffee?</i>
-      </CTA>
+      <LetsChat />
     </LayoutOne>
   )
 }

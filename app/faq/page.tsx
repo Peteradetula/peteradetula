@@ -1,3 +1,4 @@
+import LetsChat from '@/components/LetsChat/LetsChat'
 import CTA from '@/components/shared/CTA'
 import CtaImageSlider from '@/components/shared/CtaImageSlider'
 import FAQ from '@/components/shared/FAQ'
@@ -11,7 +12,7 @@ const FAQPage = () => {
   return (
     <LayoutOne>
       <FAQ bigTitleWithBadge={true} />
-      <CTA>
+      {/* <CTA>
         Let's chat!
         <CtaImageSlider
           slides={[
@@ -22,7 +23,8 @@ const FAQPage = () => {
         />
         with us.
         <i className="block font-instrument italic max-md:inline-block max-sm:pl-2 sm:mt-10">A virtual coffee?</i>
-      </CTA>
+      </CTA> */}
+      <LetsChat />
     </LayoutOne>
   )
 }

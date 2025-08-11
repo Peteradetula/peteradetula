@@ -19,7 +19,7 @@ const OurProject = () => {
         <div className="max-xs:px-5 grid grid-cols-1 gap-6 md:grid-cols-2">
           {projects.map((project) => (
             <RevealWrapper className="group relative w-full cursor-pointer max-lg:mx-auto" key={project.slug}>
-              <Link href={`/design-agency/${project.slug}`} className="block">
+              <Link href={`/projects/${project.slug}`} className="block">
                 <figure className="overflow-hidden">
                   <Image
                     className="block h-full w-full transition-all duration-500 hover:scale-125"
