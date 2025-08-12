@@ -3,7 +3,7 @@ title: 'Test'
 description: 'Testing, iterating, discussing and working through the problem'
 coverImage: '/images/services/services-details2-img.png'
 badge: 'Services details'
-feature: ['Visual design (e.g., branding, marketing assets)', 'Digital design (e.g., app interfaces, website layouts)']
+feature: []
 ---
 
 ### Service overview

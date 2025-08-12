@@ -86,27 +86,35 @@ const Footer = () => {
               Book a quick 15 min meeting where we discuss if my offer <br />
               would work for your case
             </p>
-            <div className="group flex max-w-[360px] items-center justify-between gap-4 bg-primary bg-opacity-30 p-4 backdrop-blur-2xl">
-              <Image className="h-[55px] w-auto" src={logo} alt="logo" />
-              <div>
-                <h6 className="font-satoshi text-sm font-bold text-white">Schedule a Free Meeting</h6>
-                <p className="text-sm text-white">1 spot left this month</p>
+            <Link href="https://calendly.com/adetulapeter/30min" target="_blank">
+              <div className="group flex max-w-[360px] items-center justify-between gap-4 bg-primary bg-opacity-30 p-4 backdrop-blur-2xl">
+                <Image
+                  width={55}
+                  alt="logo"
+                  height={55}
+                  className="h-[55px] w-auto"
+                  src="/images/peteradetula-nobg.png"
+                />
+                <div>
+                  <h6 className="font-satoshi text-sm font-bold text-white">Schedule a Free Meeting</h6>
+                  <p className="text-sm text-white">1 spot left this month</p>
+                </div>
+                <Link href="https://calendly.com/adetulapeter/30min" target="_blank">
+                  <figure className="relative h-[55px] w-[55px] cursor-pointer overflow-hidden bg-primary">
+                    <Image
+                      src={arrowIcon}
+                      alt="Arrow Icon"
+                      className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 opacity-100 transition-all duration-500 group-hover:-translate-y-12 group-hover:translate-x-8 group-hover:opacity-0"
+                    />
+                    <Image
+                      src={arrowIcon}
+                      alt="Arrow Icon"
+                      className="absolute -translate-x-4 translate-y-12 opacity-0 transition-all duration-500 group-hover:translate-x-[19px] group-hover:translate-y-5 group-hover:opacity-100"
+                    />
+                  </figure>
+                </Link>
               </div>
-              <Link href="https://calendly.com/adetulapeter/30min" target="_blank">
-                <figure className="relative h-[55px] w-[55px] cursor-pointer overflow-hidden bg-primary">
-                  <Image
-                    src={arrowIcon}
-                    alt="Arrow Icon"
-                    className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 opacity-100 transition-all duration-500 group-hover:-translate-y-12 group-hover:translate-x-8 group-hover:opacity-0"
-                  />
-                  <Image
-                    src={arrowIcon}
-                    alt="Arrow Icon"
-                    className="absolute -translate-x-4 translate-y-12 opacity-0 transition-all duration-500 group-hover:translate-x-[19px] group-hover:translate-y-5 group-hover:opacity-100"
-                  />
-                </figure>
-              </Link>
-            </div>
+            </Link>
           </div>
 
           {footerData.map((section, index) => (

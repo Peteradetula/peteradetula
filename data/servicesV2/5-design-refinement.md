@@ -3,7 +3,7 @@ title: 'Design refinement'
 description: 'Refining a chosen direction and polishing visual design, preparing designs for engineering handoff and documenting decision made'
 coverImage: '/images/services/services-details2-img.png'
 badge: 'Services details'
-feature: ['Visual design (e.g., branding, marketing assets)', 'Digital design (e.g., app interfaces, website layouts)']
+feature: []
 ---
 
 ### Service overview
