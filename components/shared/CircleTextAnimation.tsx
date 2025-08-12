@@ -16,7 +16,7 @@ const CircleTextAnimation = () => {
       const text = textRef.current
       if (!text) return
 
-      const originalText = 'Adetula Peter'
+      const originalText = '  Building brands, and creating impact'
       const chars = originalText.trim().split('')
       const angleStep = 360 / chars.length // Distribute characters evenly
 

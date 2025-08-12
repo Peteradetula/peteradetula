@@ -17,8 +17,8 @@ const About = ({ marquee = false }: AboutProps) => {
         <div className="container">
           <RevealWrapper>
             <h3 className="pb-10 sm:pb-20" ref={revealRef}>
-              We provide customized solutions for enhancing your existing site or building a brand-new digital platform
-              from the ground up.
+              I provide customized and authentic solutions for enhancing your existing or building a brand-new digital
+              userbase from the ground up.
             </h3>
           </RevealWrapper>
           <RevealWrapper>
