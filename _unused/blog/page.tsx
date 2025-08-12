@@ -6,7 +6,7 @@ import PageHero from '@/components/shared/PageHero'
 import getMarkDownData from '@/utils/GetMarkDownData'
 
 export const metadata = {
-  title: 'AI Blog',
+  title: 'Blog - Peter Adetula',
 }
 
 export interface BlogType {

@@ -5,7 +5,7 @@ import FAQ from '@/components/shared/FAQ'
 import LayoutOne from '@/components/shared/LayoutOne'
 
 export const metadata = {
-  title: 'Faq',
+  title: 'FAQ - Peter Adetula',
 }
 
 const FAQPage = () => {

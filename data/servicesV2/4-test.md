@@ -1,11 +1,9 @@
 ---
-title: 'Empathy/Research'
-description: 'Understanding more about the problem space, considering potential solutions and learning about the customer'
+title: 'Test'
+description: 'Testing, iterating, discussing and working through the problem'
 coverImage: '/images/services/services-details2-img.png'
 badge: 'Services details'
-feature: ['User interface design (e.g., layouts, colors, typography)
-',
-'User experience design (e.g., interactions, user flows)']
+feature: ['Visual design (e.g., branding, marketing assets)', 'Digital design (e.g., app interfaces, website layouts)']
 ---
 
 ### Service overview

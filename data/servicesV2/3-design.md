@@ -1,11 +1,9 @@
 ---
-title: 'Media'
-description: 'What specific design elements are you focusing on? Design can span across:'
+title: 'Design'
+description: 'Diverging wide and exploring a range of possible solutions'
 coverImage: '/images/services/services-details2-img.png'
 badge: 'Services details'
-feature: ['Visual design (e.g., branding, marketing assets)
-',
-'Digital design (e.g., app interfaces, website layouts)']
+feature: []
 ---
 
 ### Service overview

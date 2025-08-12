@@ -1,10 +1,9 @@
 ---
-title: 'Research'
-description: 'What specific research are you interested in? Research can range across a variety of fields such as'
+title: 'Empathy/Research'
+description: 'Understanding more about the problem space, considering potential solutions and learning about the customer'
 coverImage: '/images/services/services-details2-img.png'
 badge: 'Services details'
-feature: ['Scientific research (e.g., medical, environmental, technological studies)',
-'Market research (consumer trends, competitor analysis)']
+feature: []
 ---
 
 ### Service overview

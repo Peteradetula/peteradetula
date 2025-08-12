@@ -1,5 +1,5 @@
 'use client'
-import { BlogType } from '@/app/blog/page'
+import { BlogType } from '@/_unused/blog/page'
 import topArrowDark from '@/public/images/icons/top-arrow-dark.svg'
 import topArrow from '@/public/images/icons/top-arrow.svg'
 import Image from 'next/image'

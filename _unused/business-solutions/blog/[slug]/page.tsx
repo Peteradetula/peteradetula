@@ -1,4 +1,4 @@
-import { BlogType } from '@/app/blog/page'
+import { BlogType } from '@/_unused/blog/page'
 import BlogContent from '@/components/blogpage/BlogContent'
 import CTA from '@/components/shared/CTA'
 import CtaImageSlider from '@/components/shared/CtaImageSlider'

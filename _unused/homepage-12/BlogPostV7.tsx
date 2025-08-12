@@ -1,5 +1,5 @@
 'use client'
-import { BlogType } from '@/app/blog/page'
+import { BlogType } from '@/_unused/blog/page'
 import Link from 'next/link'
 import { FC } from 'react'
 import 'swiper/css'
