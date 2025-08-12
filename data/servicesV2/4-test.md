@@ -1,9 +1,14 @@
 ---
 title: 'Test'
-description: 'Testing, iterating, discussing and working through the problem'
+description: 'Checking whether your design actually works for real users before it’s fully built or launched.'
 coverImage: '/images/services/services-details2-img.png'
 badge: 'Services details'
-feature: []
+feature:
+  [
+    '<b>Usability testing</b> – Asking users to complete tasks with your prototype or product while observing where they succeed or struggle.',
+    '<b>Collecting feedback</b> – Using interviews, surveys, or analytics to understand user reactions and identify issues.',
+    '<b>Iterating based on results</b> – Refining designs to fix pain points, improve clarity, and better meet user needs before final delivery.',
+  ]
 ---
 
 ### Service overview

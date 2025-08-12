@@ -1,9 +1,13 @@
 ---
 title: 'Conceptualise'
-description: 'Defining the problem and crafting design ideas to help guide project and experience decisions, and ensure alignment amongst the team'
+description: 'Defining the solution approach, Using research findings to decide what the product should do and how it should work to meet user needs and business goals.'
 coverImage: '/images/services/services-details2-img.png'
 badge: 'Services details'
-feature: ['Diving deep into the user journey and exploring user stories, personas, channels and user decision making']
+feature:
+  [
+    '<b>Generating ideas</b> – Brainstorming, sketching, and mapping different concepts for layouts, features, and interactions.',
+    '<b>Creating structure</b> – Producing information architecture diagrams, user flows, and early wireframes that outline how users will navigate and interact with the product.',
+  ]
 ---
 
 ### Service overview

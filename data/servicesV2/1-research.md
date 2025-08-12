@@ -1,9 +1,13 @@
 ---
-title: 'Design refinement'
-description: 'Refining a chosen direction and polishing visual design, preparing designs for engineering handoff and documenting decision made'
+title: 'Research'
+description: 'Gathering insights about users’ needs, behaviours, pain points, and the environment in which they interact with a product.'
 coverImage: '/images/services/services-details2-img.png'
 badge: 'Services details'
-feature: []
+feature:
+  [
+    '<b>Informing design decisions</b> – Using data from interviews, surveys, usability tests, and analytics to guide concepts, features, and prioritisation.',
+    '<b>Validating ideas</b> – Testing assumptions early to ensure solutions are useful, usable, and aligned with business goals before full development.',
+  ]
 ---
 
 ### Service overview
