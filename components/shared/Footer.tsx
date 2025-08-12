@@ -4,12 +4,13 @@ import logo from '@/public/images/logo.svg'
 import Image from 'next/image'
 import Link from 'next/link'
 import FooterProvider from './FooterProvider'
-import teamMembers from '@/data/teamMemberData.json'
-import linkedinLogo from '@/public/images/icons/linkedin.png'
-import twiterDarkLogo from '@/public/images/icons/x-twitter-dark.svg'
-import emailLogo from '@/public/images/icons/email.png'
-import youtubeDarkLogo from '@/public/images/icons/youtube-dark.svg'
-import facebookDarkLogo from '@/public/images/icons/facebook-dark.svg'
+// import teamMembers from '@/data/teamMemberData.json'
+// import linkedinLogo from '@/public/images/icons/linkedin.png'
+// import twiterDarkLogo from '@/public/images/icons/x-twitter-dark.svg'
+// import emailLogo from '@/public/images/icons/email.png'
+// import youtubeDarkLogo from '@/public/images/icons/youtube-dark.svg'
+// import facebookDarkLogo from '@/public/images/icons/facebook-dark.svg'
+// import { LinkedinOutlined, MailOutlined } from '@ant-design/icons'
 
 const Footer = () => {
   return (
@@ -20,17 +21,17 @@ const Footer = () => {
             <div className="mb-4 flex items-center justify-between gap-4 sm:mb-8">
               <h5 className="font-satoshi text-sm font-bold uppercase tracking-[3px] text-white">Reach me</h5>
 
-              <ul className="flex gap-5">
+              {/* <ul className="flex gap-5">
                 {teamMembers[0].socialLinks.email && (
                   <li>
                     <Link
                       href={teamMembers[0].socialLinks.email}
                       target="_blank"
                       className="transition-transform duration-200 ease-in-out hover:-translate-y-1">
-                      {/* <MailOutlined
+                      <MailOutlined
                         className="!inline !text-white dark:text-white"
                         style={{ color: 'white !important', fontSize: 24 }}
-                      /> */}
+                      />
                       <Image src={emailLogo} alt="Twitter" width={24} height={24} className="inline" />
                     </Link>
                   </li>
@@ -41,10 +42,10 @@ const Footer = () => {
                       href={teamMembers[0].socialLinks.linkedin}
                       target="_blank"
                       className="transition-transform duration-200 ease-in-out hover:-translate-y-1">
-                      {/* <LinkedinOutlined
+                      <LinkedinOutlined
                         className="!inline !text-white dark:text-white"
                         style={{ color: 'white !important', fontSize: 24 }}
-                      /> */}
+                      />
                       <Image src={linkedinLogo} alt="Twitter" width={24} height={24} className="inline" />
                     </Link>
                   </li>
@@ -79,13 +80,10 @@ const Footer = () => {
                     </Link>
                   </li>
                 )}
-              </ul>
+              </ul> */}
             </div>
             <p className="mb-5 text-sm text-white">
-              <Link className="text-white underline hover:text-primary dark:text-[#EDF0F5B3]" href="/contact">
-                Book a quick 15 min meeting
-              </Link>{' '}
-              where we discuss if my offer <br />
+              Book a quick 15 min meeting where we discuss if my offer <br />
               would work for your case
             </p>
             <div className="group flex max-w-[360px] items-center justify-between gap-4 bg-primary bg-opacity-30 p-4 backdrop-blur-2xl">
@@ -94,7 +92,7 @@ const Footer = () => {
                 <h6 className="font-satoshi text-sm font-bold text-white">Schedule a Free Meeting</h6>
                 <p className="text-sm text-white">1 spot left this month</p>
               </div>
-              <Link href="/contact">
+              <Link href="https://calendly.com/adetulapeter/30min" target="_blank">
                 <figure className="relative h-[55px] w-[55px] cursor-pointer overflow-hidden bg-primary">
                   <Image
                     src={arrowIcon}

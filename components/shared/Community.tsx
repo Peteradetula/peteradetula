@@ -3,8 +3,11 @@ import Image from 'next/image'
 import Link from 'next/link'
 import RevealWrapper from '../animation/RevealWrapper'
 import TextAppearAnimation from '../animation/TextAppearAnimation'
+import teamMemberData from '@/data/teamMemberData.json'
 
 const Community = () => {
+  const peterData = teamMemberData.find((member) => member.id === 'peter')
+  const linkedinUrl = peterData?.socialLinks.linkedin || '#'
   return (
     <section className="pb-14 pt-14 md:pb-16 md:pt-16 lg:pb-[88px] lg:pt-[88px] xl:pb-[100px] xl:pt-[100px]">
       <div className="container">
@@ -71,7 +74,7 @@ const Community = () => {
               Latest Design Trends
             </h3>
             <Link
-              href="https://www.linkedin.com/company/staticmania"
+              href={linkedinUrl}
               target="_blank"
               className="rv-button rv-button-secondary block w-[90%] max-md:mx-auto md:inline-block md:w-auto">
               <div className="rv-button-top">

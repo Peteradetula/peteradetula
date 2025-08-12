@@ -1,6 +1,6 @@
 ---
-title: 'Development'
-description: 'Which aspects of UI/UX design are you targeting? Consider:'
+title: 'Empathy/Research'
+description: 'Understanding more about the problem space, considering potential solutions and learning about the customer'
 coverImage: '/images/services/services-details2-img.png'
 badge: 'Services details'
 feature: ['User interface design (e.g., layouts, colors, typography)

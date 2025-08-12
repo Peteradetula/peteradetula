@@ -1,7 +1,7 @@
 ---
-title: 'Cardbon Trading'
+title: 'Carbon Trading'
 description: 'Create a platform where users globally to instantly pay a business in Kenya from anywhere in the world using mobile money and allow users share money on the app with their friends and family'
-thumbnail: '/images/services/services-1.png'
+thumbnail: '/images/carbon-trading-thumbnail.png'
 coverImage: '/images/services/services-details-img.png'
 badge: 'Project case study'
 ---
