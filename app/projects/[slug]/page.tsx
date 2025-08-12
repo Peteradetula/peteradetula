@@ -15,6 +15,15 @@ export async function generateStaticParams() {
   }))
 }
 
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+  const slug = (await params).slug
+  const project = getMarkDownContent('data/design-agency/', slug)
+  const postprojects = project.data
+  return {
+    title: `${postprojects?.title} - Projects - Peter Adetula`,
+  }
+}
+
 const ProjectDetails = async ({ params }: { params: Promise<{ slug: string }> }) => {
   const slug = (await params).slug
   const project = getMarkDownContent('data/design-agency/', slug)
