@@ -1,7 +1,7 @@
 ---
-title: 'Shelly AI'
-description: 'AI-powered assistant that provides instant, accurate, and secure access to critical knowledge across Shell’s ecosystem. By reducing dependency on SMEs and streamlining information retrieval, Virtual SME enhances productivity, optimizes workflows, and empowers employees to work smarter and faster. Allowing a system that can access all knowledge required based on your role  while maintaining and complying with company security'
-thumbnail: '/images/shelly-ai.png'
+title: 'Cardbon Trading'
+description: 'Create a platform where users globally to instantly pay a business in Kenya from anywhere in the world using mobile money and allow users share money on the app with their friends and family'
+thumbnail: '/images/services/services-1.png'
 coverImage: '/images/services/services-details-img.png'
 badge: 'Project case study'
 ---
