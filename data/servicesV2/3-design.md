@@ -5,9 +5,9 @@ coverImage: '/images/services/services-details2-img.png'
 badge: 'Services details'
 feature:
   [
-    '<b>Creating detailed visuals</b> – Turning wireframes into high-fidelity mockups with colours, typography, imagery, and branding applied.',
-    '<b>Designing interactions</b> – Specifying how elements respond to user actions (animations, transitions, hover states, etc.).',
-    '<b>Ensuring usability and accessibility</b> – Applying design principles so the product is intuitive, inclusive, and easy to use for all users.',
+    'Creating detailed visuals – Turning wireframes into high-fidelity mockups with colours, typography, imagery, and branding applied.',
+    'Designing interactions – Specifying how elements respond to user actions (animations, transitions, hover states, etc.).',
+    'Ensuring usability and accessibility – Applying design principles so the product is intuitive, inclusive, and easy to use for all users.',
   ]
 ---
 

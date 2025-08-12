@@ -56,8 +56,7 @@ const About = ({ marquee = false }: AboutProps) => {
             <br />
             <br />
             Over the past few years, I&apos;ve worked on projects across a range of sectors, creating solutions that
-            balance user needs with business goals. I&apos;m passionate about building products that are usable,
-            inclusive, enjoyable, and genuinely useful.
+            balance user needs with business goals.
           </h3>
         </div>
       </div>

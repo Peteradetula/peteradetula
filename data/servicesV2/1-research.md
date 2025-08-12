@@ -5,8 +5,8 @@ coverImage: '/images/services/services-details2-img.png'
 badge: 'Services details'
 feature:
   [
-    '<b>Informing design decisions</b> – Using data from interviews, surveys, usability tests, and analytics to guide concepts, features, and prioritisation.',
-    '<b>Validating ideas</b> – Testing assumptions early to ensure solutions are useful, usable, and aligned with business goals before full development.',
+    'Informing design decisions – Using data from interviews, surveys, usability tests, and analytics to guide concepts, features, and prioritisation.',
+    'Validating ideas – Testing assumptions early to ensure solutions are useful, usable, and aligned with business goals before full development.',
   ]
 ---
 
