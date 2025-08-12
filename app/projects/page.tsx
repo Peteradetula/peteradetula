@@ -1,11 +1,11 @@
-import LetsChat from '@/components/LetsChat/LetsChat'
+import LayoutOne from '@/components/shared/LayoutOne'
+// import LetsChat from '@/components/LetsChat/LetsChat'
+import GradientCta from '@/components/shared/GradientCta'
 import OurProject from '@/components/projectpage/OurProject'
 import ProjectHero from '@/components/projectpage/ProjectHero'
-import GradientCta from '@/components/shared/GradientCta'
-import LayoutOne from '@/components/shared/LayoutOne'
 
 export const metadata = {
-  title: 'Design Agency Projects',
+  title: 'Projects - Peter Adetula',
 }
 
 const ProjectPage = () => {
@@ -13,8 +13,8 @@ const ProjectPage = () => {
     <LayoutOne>
       <ProjectHero />
       <OurProject />
-      {/* <GradientCta /> */}
-      <LetsChat />
+      <GradientCta />
+      {/* <LetsChat /> */}
     </LayoutOne>
   )
 }
