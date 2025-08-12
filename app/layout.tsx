@@ -9,6 +9,11 @@ import '../scss/main.scss'
 
 export const metadata: Metadata = {
   title: 'Rivor Template',
+  icons: {
+    icon: '/images/peteradetula-nobg.png',
+    shortcut: '/images/peteradetula-nobg.png',
+    apple: '/images/peteradetula-nobg.png',
+  },
 }
 
 export default function RootLayout({
