@@ -9,6 +9,7 @@ const Community = () => {
   const peterData = teamMemberData.find((member) => member.id === 'peter')
   const linkedinUrl = peterData?.socialLinks.linkedin || '#'
   const resumeUrl = peterData?.socialLinks.resume || '#'
+  const waitlistUrl = peterData?.socialLinks.waitlist || '#'
 
   return (
     <section className="pb-14 pt-14 md:pb-16 md:pt-16 lg:pb-[88px] lg:pt-[88px] xl:pb-[100px] xl:pt-[100px]">
@@ -26,18 +27,18 @@ const Community = () => {
           <RevealWrapper className="col-span-full flex flex-col items-start justify-center gap-x-4 border p-6 dark:border-dark max-md:gap-y-8 md:flex-row md:items-center md:justify-between md:p-10">
             <div className="max-md:block max-md:w-full">
               <h3 className="mb-8 leading-[1.2] tracking-[-1.08px] md:my-8 lg:text-4xl">
-                Join Our Community of <br />
-                500+ Designers
+                Join my mentorship community of <br />
+                designers and AI enthusiasts
               </h3>
               <Link
-                href="https://discord.com/invite/Y8n8ST6a"
+                href={waitlistUrl}
                 target="_blank"
                 className="rv-button rv-button-secondary block w-full text-center max-md:mx-auto md:inline-block md:w-auto">
                 <div className="rv-button-top">
-                  <span>Join Discord</span>
+                  <span>Join The Waitlist</span>
                 </div>
                 <div className="rv-button-bottom">
-                  <span>Join Discord</span>
+                  <span>Join The Waitlist</span>
                 </div>
               </Link>
             </div>
