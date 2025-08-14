@@ -24,8 +24,7 @@
       { "href": "", "label": "career Details" },
       { "href": "", "label": "Team" },
       { "href": "", "label": "Team Details" },
-      { "href": "", "label": "Changelog" },
-      { "href": "/password", "label": "Password password" }
+      { "href": "", "label": "Changelog" }
     ]
   }
 ]
