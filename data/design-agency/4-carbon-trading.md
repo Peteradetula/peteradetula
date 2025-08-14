@@ -18,9 +18,11 @@ In 2021, the regulated carbon market reached a value of $851 billion, representi
 
 Meanwhile, the voluntary carbon market is projected to grow to 1.5 to 2 gigatonnes of CO2 equivalent (GtCO2e) by 2034. This suggests increasing demand for carbon credits , driven by:
 
-- (\*) More companies aiming for net-zero emissions.
-- (\*) Growing interest in sustainable investing.
-- (\*) Advancements in carbon capture technologies.
+- ✅ More companies aiming for net-zero emissions.
+  &nbsp;
+- ✅ Growing interest in sustainable investing.
+  &nbsp;
+- ✅ Advancements in carbon capture technologies.
 
   Since Shell operates in energy trading, an evolving carbon credit market could impact trading strategies, regulatory compliance, and financial decisions. The EPTB platform could potentially integrate carbon credit analytics to help traders make informed decisions regarding emission-related costs.
 
@@ -30,7 +32,11 @@ Meanwhile, the voluntary carbon market is projected to grow to 1.5 to 2 gigatonn
 
 Shell EPTB Analytics delivers a clear, intuitive experience that helps users quickly access insights, spot trends, and drill into data, enabling faster, more informed decisions across devices.
 
-![Image 3](/images/carbon-trading-3.png)
+![Image 3](/images/carbon-trading-3-1.png)
+
+NES Analytics Product Roadmap
+
+![Image 3](/images/carbon-trading-3-2.png)
 
 Problems and goal settings
 
@@ -66,7 +72,7 @@ I restructured the navigation, filtering, and data presentation to enhance usabi
 
 ![Image 11](/images/carbon-trading-11.png)
 
-### Design and User testing
+### Design and User Testing
 
 This is the phase where concepts are turned into interactive prototypes and then evaluated with real users. The goal is to see how people actually use the product, identify usability issues, and gather feedback to refine the design before final development.
 
@@ -80,6 +86,6 @@ To validate our design improvements, I conducted usability testing with key user
 
 ![Image 15](/images/carbon-trading-15.png)
 
-### Conclusion & Learning
+Throughout this design process, I gained valuable insights, including what worked well, the challenges faced, and the key takeaways. I also identified clear next steps to build on the progress made, These includes:
 
 ![Image 16](/images/carbon-trading-16.png)

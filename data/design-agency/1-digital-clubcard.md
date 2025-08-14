@@ -47,25 +47,31 @@ I came up with behavioural family tree that helps explains the how Clubcard is b
 
 Using the continuous discovery approach:
 
-1. (1.) I Interviewed 1-2 customers every week
-2. (2.) I broke customer insights down into actionable opportunities every week.
-3. (3.) As a team, we compared and contrast experiments to figure out the best solution in a 30 minutes retro every 2 weeks
+1. ✅ I Interviewed 1-2 customers every week
+   &nbsp;
+2. ✅ I broke customer insights down into actionable opportunities every week.
+   &nbsp;
+3. ✅ As a team, we compared and contrast experiments to figure out the best solution in a 30 minutes retro every 2 weeks
 
 ![Image 5](/images/digital-clubcard-5.png)
 
 Sources of ideas:
 
-1. (1.) User idea: customer interview, analytics, feedbacks from customers, reviews.
-2. (2.) Team ideas: Workshops, stakeholders meetings, core product team, sales team
+1. ✅ User idea: customer interview, analytics, feedbacks from customers, reviews.
+   &nbsp;
+2. ✅ Team ideas: Workshops, stakeholders meetings, core product team, sales team
 
 ![Image 6](/images/digital-clubcard-6.png)
 
 I divided users into more refined groups of buyers based on selected characteristics using the following framework:
 
-1. (1.) Demography (Age Group, Education, Gender)
-2. (2.) Geography (Urban, Rural)
-3. (3.) Psychography(Personal Attribute)
-4. (4.) Behavioural Patterns (Buying Behaviour)
+1. ✅ Demography (Age Group, Education, Gender)
+   &nbsp;
+2. ✅ Geography (Urban, Rural)
+   &nbsp;
+3. ✅ Psychography(Personal Attribute)
+   &nbsp;
+4. ✅ Behavioural Patterns (Buying Behaviour)
 
 ![Image 7](/images/digital-clubcard-7.png)
 
@@ -107,9 +113,11 @@ User Testing
 
 I created a clickable prototype of the three experiment and tested it with users on a zoom meeting, here are the feedbacks from the test:
 
-1. (1.) Customers find the digital ClubCard scan code and PDF option real interesting, most preferred the digital option.
-2. (2.) Customers want a physical non-paid option for customers with accessibility issues as the PDF might not be a good option for them.
-3. (3.) Users requested for a physical non-paid option to customers non-digital shoppers and low income groups.
+1. ✅ Customers find the digital ClubCard scan code and PDF option real interesting, most preferred the digital option.
+   &nbsp;
+2. ✅ Customers want a physical non-paid option for customers with accessibility issues as the PDF might not be a good option for them.
+   &nbsp;
+3. ✅ Users requested for a physical non-paid option to customers non-digital shoppers and low income groups.
 
 &nbsp;
 
@@ -129,8 +137,12 @@ Provide Feedback: Provide feedback when users take actions that are contrary to 
 
 Business Impact
 
-1. (1.) Percentage of users ordering a plastic ClubCard via web decreased by 60%.
-2. (2.) Significant reduction in customers calling the CEC to order a plastic Clubcard and a significant reduction in Clubcard & Voucher enquiry calls.
-3. (3.) Percentage of users installing the app increased by 96% and the visits to the app per test visitor increased by 73%.
-4. (4.) We managed to reduce plastic Clubcard by 1,448 and based on a 77% value, saving £1, 111, 496.
-5. (5.) FFFHighlighting the digital app significantly increased the % of users who make a digital scan
+1. ✅ Percentage of users ordering a plastic ClubCard via web decreased by 60%.
+   &nbsp;
+2. ✅ Significant reduction in customers calling the CEC to order a plastic Clubcard and a significant reduction in Clubcard & Voucher enquiry calls.
+   &nbsp;
+3. ✅ Percentage of users installing the app increased by 96% and the visits to the app per test visitor increased by 73%.
+   &nbsp;
+4. ✅ We managed to reduce plastic Clubcard by 1,448 and based on a 77% value, saving £1, 111, 496.
+   &nbsp;
+5. ✅ FFFHighlighting the digital app significantly increased the % of users who make a digital scan

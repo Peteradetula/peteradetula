@@ -145,10 +145,13 @@ We explored different UI approaches, prioritizing:
 
 Early Wireframe Explorations
 
-1. (\*) Home Screen: Personalized dashboard with department-relevant AI insights.
-2. (\*) Chat Interface: Smart filtering of responses based on user permissions.
-3. (\*) Task Automation: Approvals, compliance checks, and knowledge retrieval.
-4. (\*) Integrations: Sharepoint, salesforce.
+1. ✅ Home Screen: Personalized dashboard with department-relevant AI insights.
+   &nbsp;
+2. ✅ Chat Interface: Smart filtering of responses based on user permissions.
+   &nbsp;
+3. ✅ Task Automation: Approvals, compliance checks, and knowledge retrieval.
+   &nbsp;
+4. ✅ Integrations: Sharepoint, salesforce.
 
 &nbsp;
 
