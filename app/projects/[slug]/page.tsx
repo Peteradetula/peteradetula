@@ -7,6 +7,7 @@ import CtaImageSlider from '@/components/shared/CtaImageSlider'
 import LayoutOne from '@/components/shared/LayoutOne'
 import getMarkDownContent from '@/utils/GetMarkDownContent'
 import getMarkDownData from '@/utils/GetMarkDownData'
+import PasswordProtection from '@/components/shared/PasswordProtection'
 
 export async function generateStaticParams() {
   const projects: ProjectType[] = getMarkDownData('data/design-agency')
@@ -28,6 +29,24 @@ const ProjectDetails = async ({ params }: { params: Promise<{ slug: string }> })
   const slug = (await params).slug
   const project = getMarkDownContent('data/design-agency/', slug)
   const postprojects = project.data
+
+  // Password protect the 2-shelly-ai page
+  if (slug === '2-shelly-ai') {
+    return (
+      <LayoutOne>
+        <PasswordProtection>
+          <ProjectDetailsHero
+            badgeTitle="Project Case Study"
+            title={postprojects?.title}
+            description={postprojects?.description}
+            scale
+          />
+          <ProjectContent project={project} />
+          <LetsChat />
+        </PasswordProtection>
+      </LayoutOne>
+    )
+  }
 
   return (
     <LayoutOne>

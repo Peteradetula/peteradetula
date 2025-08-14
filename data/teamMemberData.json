@@ -2,6 +2,7 @@
   {
     "id": "peter",
     "name": "Peter Adetula",
+    "password": "peter",
     "role": "Product Designer",
     "image": "/images/peteradetula.jpeg",
     "bio": "Passionate about building authentic solutions, I am a Product Designer with over 17 years of industry experience.",
