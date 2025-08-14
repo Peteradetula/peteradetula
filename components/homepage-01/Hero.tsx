@@ -39,10 +39,10 @@ const Hero = () => {
             <li className="mx-auto block w-[90%] md:ml-0 md:mr-auto md:inline-block md:w-auto">
               <Link href="/projects" className="rv-button rv-button-white block md:inline-block">
                 <div className="rv-button-top">
-                  <span>Selected Works</span>
+                  <span>Shaping Experiences</span>
                 </div>
                 <div className="rv-button-bottom">
-                  <span>Selected Works</span>
+                  <span>Shaping Experiences</span>
                 </div>
               </Link>
             </li>
