@@ -2,7 +2,7 @@
 title: 'Shelly AI'
 description: 'AI-powered assistant that provides instant, accurate, and secure access to critical knowledge across Shell’s ecosystem. By reducing dependency on SMEs and streamlining information retrieval, Virtual SME enhances productivity, optimizes workflows, and empowers employees to work smarter and faster. Allowing a system that can access all knowledge required based on your role  while maintaining and complying with company security'
 thumbnail: '/images/shelly-ai-thumbnail.png'
-coverImage: '/images/services/services-details-img.png'
+coverImage: '/images/shelly-ai-1.png'
 badge: 'Project case study'
 ---
 
