@@ -5,9 +5,7 @@ coverImage: '/images/services/services-details2-img.png'
 badge: 'Services details'
 feature:
   [
-    'Usability testing – Asking users to complete tasks with your prototype or product while observing where they succeed or struggle.',
-    'Collecting feedback – Using interviews, surveys, or analytics to understand user reactions and identify issues.',
-    'Iterating based on results – Refining designs to fix pain points, improve clarity, and better meet user needs before final delivery.',
+    'Asking users to complete tasks with your prototype or product while observing where they succeed or struggle, collecting feedback to understand user reactions.',
   ]
 ---
 

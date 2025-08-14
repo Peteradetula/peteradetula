@@ -8,6 +8,8 @@ import teamMemberData from '@/data/teamMemberData.json'
 const Community = () => {
   const peterData = teamMemberData.find((member) => member.id === 'peter')
   const linkedinUrl = peterData?.socialLinks.linkedin || '#'
+  const resumeUrl = peterData?.socialLinks.resume || '#'
+
   return (
     <section className="pb-14 pt-14 md:pb-16 md:pt-16 lg:pb-[88px] lg:pt-[88px] xl:pb-[100px] xl:pt-[100px]">
       <div className="container">
@@ -46,21 +48,21 @@ const Community = () => {
 
           <RevealWrapper className="col-span-full border pb-10 pt-10 text-center dark:border-dark md:col-span-6 md:pb-[60px]">
             <div className="rv-badge">
-              <span className="rv-badge-text">Youtube</span>
+              <span className="rv-badge-text">Resume</span>
             </div>
             <h3 className="my-5 text-[25px] leading-[1.2] tracking-[-1.08px] md:my-8 lg:text-4xl">
-              Design Tips & <br className="hidden md:block" />
-              Tutorial Videos
+              View My <br className="hidden md:block" />
+              Resume
             </h3>
             <Link
-              href="https://youtu.be/JGLfyTDgfDc?si=0-iUKu3hv8uewpxg"
               target="_blank"
+              href={resumeUrl}
               className="rv-button rv-button-secondary block w-[90%] max-md:mx-auto md:inline-block md:w-auto">
               <div className="rv-button-top">
-                <span>Subscribe Now</span>
+                <span>Resume</span>
               </div>
               <div className="rv-button-bottom">
-                <span>Subscribe Now</span>
+                <span>Resume</span>
               </div>
             </Link>
           </RevealWrapper>
@@ -70,12 +72,12 @@ const Community = () => {
               <span className="rv-badge-text">Linkedin</span>
             </div>
             <h3 className="my-5 text-[25px] leading-[1.2] tracking-[-1.08px] md:my-8 lg:text-4xl">
-              Stay Updated On <br />
-              Latest Design Trends
+              Connect On <br />
+              LinkedIn
             </h3>
             <Link
-              href={linkedinUrl}
               target="_blank"
+              href={linkedinUrl}
               className="rv-button rv-button-secondary block w-[90%] max-md:mx-auto md:inline-block md:w-auto">
               <div className="rv-button-top">
                 <span>Follow Now</span>

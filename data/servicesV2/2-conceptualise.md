@@ -5,8 +5,8 @@ coverImage: '/images/services/services-details2-img.png'
 badge: 'Services details'
 feature:
   [
-    'Generating ideas – Brainstorming, sketching, and mapping different concepts for layouts, features, and interactions.',
-    'Creating structure – Producing information architecture diagrams, user flows, and early wireframes that outline how users will navigate and interact with the product.',
+    'Brainstorming, sketching, and mapping different concepts for layouts, features, and interactions.',
+    'Producing information architecture diagrams, user flows, and early wireframes that outline how users will navigate and interact with the product.FFF',
   ]
 ---
 
