@@ -8,7 +8,7 @@ const ContactForm = () => {
     company: '',
     email: '',
     service: 'UI/UX',
-    budget: '40k',
+    // budget: '40k',
     message: '',
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -36,7 +36,14 @@ const ContactForm = () => {
 
       if (response.ok) {
         setSubmitStatus('success')
-        setFormData({ name: '', company: '', email: '', service: 'UI/UX', budget: '40k', message: '' })
+        setFormData({
+          name: '',
+          company: '',
+          email: '',
+          service: 'UI/UX',
+          // budget: '40k',
+          message: '',
+        })
       } else {
         setSubmitStatus('error')
       }
@@ -72,24 +79,7 @@ const ContactForm = () => {
             />
           </div>
 
-          <div>
-            <label
-              htmlFor="company"
-              className="text-2xl leading-[1.2] tracking-[-0.48px] text-[#000000b3] dark:text-dark-100">
-              Company Name
-            </label>
-            <input
-              type="text"
-              id="company"
-              name="company"
-              value={formData.company}
-              onChange={handleChange}
-              placeholder="Your company name"
-              className="mt-3 w-full border bg-backgroundBody py-4 pl-5 text-xl leading-[1.4] tracking-[0.4px] text-colorText focus:border-primary focus:outline-none dark:border-dark dark:bg-dark"
-            />
-          </div>
-
-          <div>
+          <div className="md:col-span-full">
             <label
               htmlFor="email"
               className="text-2xl leading-[1.2] tracking-[-0.48px] text-[#000000b3] dark:text-dark-100">
@@ -104,6 +94,23 @@ const ContactForm = () => {
               placeholder="name@company.com"
               className="mt-3 w-full border bg-backgroundBody py-4 pl-5 text-xl leading-[1.4] tracking-[0.4px] text-colorText focus:border-primary focus:outline-none dark:border-dark dark:bg-dark"
               required
+            />
+          </div>
+
+          <div>
+            <label
+              htmlFor="company"
+              className="text-2xl leading-[1.2] tracking-[-0.48px] text-[#000000b3] dark:text-dark-100">
+              Company Name
+            </label>
+            <input
+              type="text"
+              id="company"
+              name="company"
+              value={formData.company}
+              onChange={handleChange}
+              placeholder="Your company name"
+              className="mt-3 w-full border bg-backgroundBody py-4 pl-5 text-xl leading-[1.4] tracking-[0.4px] text-colorText focus:border-primary focus:outline-none dark:border-dark dark:bg-dark"
             />
           </div>
 
@@ -159,7 +166,7 @@ const ContactForm = () => {
             </span>
           </div>
 
-          <div className="relative">
+          {/* <div className="relative">
             <label
               htmlFor="budget"
               className="text-2xl leading-[1.2] tracking-[-0.48px] text-[#000000b3] dark:text-dark-100">
@@ -199,7 +206,7 @@ const ContactForm = () => {
                 />
               </svg>
             </span>
-          </div>
+          </div> */}
 
           <div className="md:col-span-full">
             <label
