@@ -16,7 +16,7 @@ const ProjectContent = async ({ project }: any) => {
               <TableOfContent tableOfContents={tableOfContents} />
             </div>
           </aside>
-          <article className="project-details-body overflow-hidden [&>*]:scroll-mt-20">
+          <article className="project-details-body overflow-hidden text-gray-800 dark:text-gray-300 [&>*]:scroll-mt-20">
             <RevealWrapper as="figure" className="max-w-[870px] md:h-[480px]">
               <img src={project.data.thumbnail} alt="Services Big Img" className="h-full w-full object-cover" />
             </RevealWrapper>

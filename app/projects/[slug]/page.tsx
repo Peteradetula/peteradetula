@@ -50,14 +50,16 @@ const ProjectDetails = async ({ params }: { params: Promise<{ slug: string }> })
 
   return (
     <LayoutOne>
-      <ProjectDetailsHero
-        badgeTitle="Project Case Study"
-        title={postprojects?.title}
-        description={postprojects?.description}
-        scale
-      />
-      <ProjectContent project={project} />
-      <LetsChat />
+      <div className="individual-project-page">
+        <ProjectDetailsHero
+          badgeTitle="Project Case Study"
+          title={postprojects?.title}
+          description={postprojects?.description}
+          scale
+        />
+        <ProjectContent project={project} />
+        <LetsChat />
+      </div>
     </LayoutOne>
   )
 }
