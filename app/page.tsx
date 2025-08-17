@@ -24,7 +24,7 @@ const Home = () => {
       <ClientsV3 />
       <ServicesV8 />
       <Community />
-      <FAQ />
+      <FAQ page="home" />
       <Testimonial />
       <LetsChat />
     </LayoutOne>

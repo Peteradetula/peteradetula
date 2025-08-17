@@ -1,38 +1,52 @@
 [
-  [
-    {
-      "id": 1,
-      "question": "What does it cost to work with you?",
-      "answer": "If you need to exchange a product, please contact us within 14 days of receiving your order. We will determine the best course of action and guide you through the exchange process."
-    },
-    {
-      "id": 2,
-      "question": "What's your return policy?",
-      "answer": "If you need to exchange a product, please contact us within 14 days of receiving your order. We will determine the best course of action and guide you through the exchange process."
-    }
-  ],
-  [
-    {
-      "id": 3,
-      "question": "How do I make a warranty claim?",
-      "answer": "If you need to exchange a product, please contact us within 14 days of receiving your order. We will determine the best course of action and guide you through the exchange process."
-    },
-    {
-      "id": 4,
-      "question": "Do I have to pay customs fees or duty on my package?",
-      "answer": "If you need to exchange a product, please contact us within 14 days of receiving your order. We will determine the best course of action and guide you through the exchange process."
-    }
-  ],
-  [
-    {
-      "id": 5,
-      "question": "Where can I change or cancel my order?",
-      "answer": "If you need to exchange a product, please contact us within 14 days of receiving your order. We will determine the best course of action and guide you through the exchange process."
-    },
-    {
-      "id": 6,
-      "question": "How do I track my shipment?",
-      "answer": "If you need to exchange a product, please contact us within 14 days of receiving your order. We will determine the best course of action and guide you through the exchange process."
-    }
-  ]
+  {
+    "id": 1,
+    "question": "What's your design process?",
+    "answer": "I follow a human-centred approach: starting with research to understand users and business needs, then conceptualising ideas, creating prototypes, testing with users, and refining the design based on feedback before handoff to development."
+  },
+  {
+    "id": 2,
+    "question": "How do you handle feedback and revisions?",
+    "answer": "I see feedback as part of the creative process. I welcome constructive input, ask clarifying questions to fully understand it, and work iteratively to make sure the final result aligns with both user needs and stakeholder goals."
+  },
+  {
+    "id": 3,
+    "question": "Do you focus on UX, UI, or both?",
+    "answer": "I work across both UX and UI. I believe a good product needs a balance—intuitive, research-backed experiences supported by thoughtful, visually engaging interfaces."
+  },
+  {
+    "id": 4,
+    "question": "What tools do you use?",
+    "answer": "Primarily Figma for design and prototyping, plus tools like Miro for ideation, Notion for documentation, and occasional Adobe Creative Suite work for detailed visuals."
+  },
+  {
+    "id": 5,
+    "question": "How do you ensure your designs are accessible?",
+    "answer": "I follow WCAG guidelines, design with inclusivity in mind, and test with accessibility tools to make sure content is usable for people of all abilities."
+  },
+  {
+    "id": 6,
+    "question": "What industries have you worked in?",
+    "answer": "I've designed for retail, energy, telecoms, and corporate services, adapting my approach to each sector's unique needs and audiences."
+  },
+  {
+    "id": 7,
+    "question": "Can you work with existing branding?",
+    "answer": "Yes, I can design within established brand guidelines or help develop a new visual identity from scratch."
+  },
+  {
+    "id": 8,
+    "question": "How do you measure design success?",
+    "answer": "I look at both qualitative and quantitative data—user satisfaction, reduced friction in key tasks, and measurable improvements in engagement or conversion rates."
+  },
+  {
+    "id": 9,
+    "question": "What inspires your work?",
+    "answer": "I'm inspired by everyday interactions, user behaviour patterns, and how small design decisions can make a big impact on usability and business results."
+  },
+  {
+    "id": 10,
+    "question": "Do you collaborate with developers?",
+    "answer": "Yes, I believe close collaboration with developers is essential. I provide detailed handoffs, maintain open communication, and adjust designs where needed to ensure the end product matches the vision."
+  }
 ]

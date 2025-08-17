@@ -12,7 +12,7 @@ Stay connected with your friends and family back home - send airtime and shoppin
 
 ![Image 1](/images/tulix-app-1.png)
 
-### Learn about the project - project overview
+### Learn about the project
 
 74% of Africans worldwide are willing to share more money with their friends and family if they could have more convenient ways to make payments and manage finances with the people that matter to them. Users are unable to share money on the app with their friends and family for specific needs such as school fees, rent and groceries, etc. without losing visibility over how and where money is used.
 

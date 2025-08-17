@@ -9,9 +9,10 @@ import TextAppearAnimation from '../animation/TextAppearAnimation'
 
 interface FaqProps {
   bigTitleWithBadge?: boolean
+  page?: string
 }
 
-const FAQ = ({ bigTitleWithBadge = false }: FaqProps) => {
+const FAQ = ({ bigTitleWithBadge = false, page = 'faq' }: FaqProps) => {
   const [activeIndex, setActiveIndex] = useState<number | null>(null)
 
   const toggleAccordion = (index: number) => {
@@ -47,7 +48,7 @@ const FAQ = ({ bigTitleWithBadge = false }: FaqProps) => {
         )}
 
         <RevealWrapper className="mx-auto w-full max-w-[900px] [&>*:not(:last-child)]:mb-6">
-          {faqData.map((item, index) => (
+          {(!page || page !== 'faq' ? faqData.slice(0, 5) : faqData).map((item, index) => (
             <div
               key={item.id}
               className={`faq-body-transition overflow-hidden border bg-backgroundBody duration-[400ms] dark:bg-dark ${
@@ -83,18 +84,20 @@ const FAQ = ({ bigTitleWithBadge = false }: FaqProps) => {
           ))}
         </RevealWrapper>
 
-        <RevealWrapper as="ul" className="mx-auto mt-[56px] flex list-none justify-center">
-          <li className="mx-auto block w-[90%] text-center md:inline-block md:w-auto">
-            <Link href="/faq" className="rv-button rv-button-white block md:inline-block">
-              <div className="rv-button-top">
-                <span>See All FAQ</span>
-              </div>
-              <div className="rv-button-bottom">
-                <span>See All FAQ</span>
-              </div>
-            </Link>
-          </li>
-        </RevealWrapper>
+        {(!page || page !== 'faq') && (
+          <RevealWrapper as="ul" className="mx-auto mt-[56px] flex list-none justify-center">
+            <li className="mx-auto block w-[90%] text-center md:inline-block md:w-auto">
+              <Link href="/faq" className="rv-button rv-button-white block md:inline-block">
+                <div className="rv-button-top">
+                  <span>See All FAQ</span>
+                </div>
+                <div className="rv-button-bottom">
+                  <span>See All FAQ</span>
+                </div>
+              </Link>
+            </li>
+          </RevealWrapper>
+        )}
       </div>
     </section>
   )

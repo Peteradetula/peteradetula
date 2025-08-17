@@ -12,7 +12,7 @@ Shell’s Enterprise Product Trading & Booking (EPTB) platform is a SaaS-based a
 
 ![Image 1](/images/carbon-trading-1.png)
 
-### Learn about the project - Project Overview
+### Learn about the project
 
 In 2021, the regulated carbon market reached a value of $851 billion, representing a 164% increase from 2020. This growth was driven by stricter carbon regulations, increased corporate sustainability commitments, and rising carbon prices.
 

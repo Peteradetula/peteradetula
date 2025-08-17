@@ -6,7 +6,7 @@ coverImage: '/images/digital-clubcard-cover.png'
 badge: 'Project case study'
 ---
 
-### What Drive Me (My Design Philosophy)
+### What Drives Me (My Design Philosophy)
 
 Nothing great was ever achieved without enthusiasm and curiosity: When tasked with a challenge I go deep into the problem so I can understand the core problem we’re trying to solve. Knowing this helps me make informed decisions and build enthusiasm for creating the best experience
 
@@ -16,7 +16,7 @@ Never Stop Iterating: I believe that iteration brings powerful results in design
 
 Seek Clarity Always: I constantly seek clarity and avoid ambiguity when presented with design challenges, I ensure that information is clearly conveyed to users and actions are intuitive.
 
-### Learn About The Project -Proect Overview
+### Learn About The Project
 
 When customers lose or damage their Clubcard, they order a replacement plastic card. In Q2 2021, there were 191k visits to the order page via the button on the registration page. After changes were made, Q4 showed around 76k visits from the registration confirmation page instead.
 

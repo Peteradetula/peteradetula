@@ -6,7 +6,7 @@ coverImage: '/images/shelly-ai-1.png'
 badge: 'Project case study'
 ---
 
-### Learn About The Project - Project Overview
+### Learn About The Project
 
 At Shell PLC, knowledge is power—but accessing it has long been a challenge. With a vast, intricate ecosystem spanning engineering, supply chain, legal, HR, and finance, employees constantly seek expert guidance on processes, compliance, and technical documentation. However, with thousands of employees navigating complex workflows daily, finding the right information at the right time can be a frustrating and time-consuming process.
 

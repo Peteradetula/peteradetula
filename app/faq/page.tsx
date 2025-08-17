@@ -11,7 +11,7 @@ export const metadata = {
 const FAQPage = () => {
   return (
     <LayoutOne>
-      <FAQ bigTitleWithBadge={true} />
+      <FAQ bigTitleWithBadge={true} page="faq" />
       {/* <CTA>
         Let's chat!
         <CtaImageSlider
