@@ -19,7 +19,7 @@ const ServicesV8 = () => {
         <div className="mb-10 flex flex-col items-start justify-center gap-x-10 gap-y-6 sm:items-center md:mb-20 md:flex-row lg:justify-start">
           <div className="flex-1">
             <RevealWrapper className="rv-badge mb-3 md:mb-4">
-              <span className="rv-badge-text">Services</span>
+              <span className="rv-badge-text">Process</span>
             </RevealWrapper>
             <TextAppearAnimation>
               <h2 className="text-appear">
@@ -41,10 +41,10 @@ const ServicesV8 = () => {
               <li className="mx-auto block w-full text-center md:inline-block md:w-auto">
                 <Link href="/contact" className="rv-button rv-button-white block md:inline-block">
                   <div className="rv-button-top">
-                    <span>Get Free Quotes</span>
+                    <span>Hire Me</span>
                   </div>
                   <div className="rv-button-bottom">
-                    <span>Get Free Quotes</span>
+                    <span>Hire Me</span>
                   </div>
                 </Link>
               </li>
@@ -57,9 +57,9 @@ const ServicesV8 = () => {
         {services?.map((service) => (
           <RevealWrapper
             as="a"
-            href={`/services/${service.slug}`}
-            className="group relative h-[500px] w-[360px] overflow-hidden"
-            key={service.slug}>
+            key={service.slug}
+            // href={`/services/${service.slug}`}
+            className="group relative h-[500px] w-[360px] overflow-hidden">
             <div className="absolute flex h-full w-full translate-y-0 items-center justify-center opacity-100 transition-all duration-700 group-hover:-translate-y-full group-hover:opacity-0">
               <h5>{service.title}</h5>
             </div>

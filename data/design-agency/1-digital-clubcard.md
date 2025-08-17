@@ -8,13 +8,13 @@ badge: 'Project case study'
 
 ### What Drives Me (My Design Philosophy)
 
-**Nothing great was ever achieved without enthusiasm and curiosity:** When tasked with a challenge I go deep into the problem so I can understand the core problem we're trying to solve. Knowing this helps me make informed decisions and build enthusiasm for creating the best experience.
+Nothing great was ever achieved without enthusiasm and curiosity: When tasked with a challenge I go deep into the problem so I can understand the core problem we're trying to solve. Knowing this helps me make informed decisions and build enthusiasm for creating the best experience.
 
-**User centered design:** As a designer, I believe UX is a key to a successful product, a good looking design is only a piece of art if it is not usable.
+User centered design: As a designer, I believe UX is a key to a successful product, a good looking design is only a piece of art if it is not usable.
 
-**Never Stop Iterating:** I believe that iteration brings powerful results in design and I try to iterate as much as possible by validating design decisions at different stages of the design process.
+Never Stop Iterating: I believe that iteration brings powerful results in design and I try to iterate as much as possible by validating design decisions at different stages of the design process.
 
-**Seek Clarity Always:** I constantly seek clarity and avoid ambiguity when presented with design challenges, I ensure that information is clearly conveyed to users and actions are intuitive.
+Seek Clarity Always: I constantly seek clarity and avoid ambiguity when presented with design challenges, I ensure that information is clearly conveyed to users and actions are intuitive.
 
 ### Learn About The Project
 
@@ -48,31 +48,19 @@ I came up with behavioural family tree that helps explains the how Clubcard is b
 
 Using the continuous discovery approach:
 
-- ✅ I Interviewed 1-2 customers every week
-  &nbsp;
-- ✅ I broke customer insights down into actionable opportunities every week.
-  &nbsp;
-- ✅ As a team, we compared and contrast experiments to figure out the best solution in a 30 minutes retro every 2 weeks
+I interviewed 1–2 customers each week, translated their insights into actionable opportunities, and collaborated with the team every two weeks in a 30-minute retro to compare experiments and identify the best solutions.
 
 ![Image 5](/images/digital-clubcard-5.png)
 
 **Sources of ideas:**
 
-- ✅ User idea: customer interview, analytics, feedbacks from customers, reviews.
-  &nbsp;
-- ✅ Team ideas: Workshops, stakeholders meetings, core product team, sales team
+Sources of Ideas: I gathered user ideas through customer interviews, analytics, feedback, and reviews, while team ideas came from workshops, stakeholder meetings, core product discussions, and input from the sales team.
 
 ![Image 6](/images/digital-clubcard-6.png)
 
 I divided users into more refined groups of buyers based on selected characteristics using the following framework:
 
-- ✅ Demography (Age Group, Education, Gender)
-  &nbsp;
-- ✅ Geography (Urban, Rural)
-  &nbsp;
-- ✅ Psychography(Personal Attribute)
-  &nbsp;
-- ✅ Behavioural Patterns (Buying Behaviour)
+I segmented users into more refined buyer groups based on key characteristics, using a framework that considered demographics (age, education, gender), geography (urban vs. rural), psychographics (personal attributes), and behavioural patterns (buying behavior).
 
 ![Image 7](/images/digital-clubcard-7.png)
 
@@ -112,13 +100,7 @@ This was after the journey of the users have been concluded. This process made i
 
 **User Testing**
 
-I created a clickable prototype of the three experiment and tested it with users on a zoom meeting, here are the feedbacks from the test:
-
-- ✅ Customers find the digital ClubCard scan code and PDF option real interesting, most preferred the digital option.
-  &nbsp;
-- ✅ Customers want a physical non-paid option for customers with accessibility issues as the PDF might not be a good option for them.
-  &nbsp;
-- ✅ Users requested for a physical non-paid option to customers non-digital shoppers and low income groups.
+User testing: I created a clickable prototype of the three experiments and tested it with users via Zoom. Feedback revealed that customers found the digital Clubcard scan code and PDF options very appealing, with most preferring the digital option. However, users also requested a physical, non-paid option for those with accessibility challenges, non-digital shoppers, and low-income groups, as the PDF format might not suit everyone.
 
 &nbsp;
 
@@ -138,12 +120,4 @@ After iterating on the three experiments, the team went live with experiment 1(N
 
 **Business Impact**
 
-- ✅ Percentage of users ordering a plastic ClubCard via web decreased by 60%.
-  &nbsp;
-- ✅ Significant reduction in customers calling the CEC to order a plastic Clubcard and a significant reduction in Clubcard & Voucher enquiry calls.
-  &nbsp;
-- ✅ Percentage of users installing the app increased by 96% and the visits to the app per test visitor increased by 73%.
-  &nbsp;
-- ✅ We managed to reduce plastic Clubcard by 1,448 and based on a 77% value, saving £1, 111, 496.
-  &nbsp;
-- ✅ Highlighting the digital app significantly increased the % of users who make a digital scan
+![Business impact](/images/business-impact.png)

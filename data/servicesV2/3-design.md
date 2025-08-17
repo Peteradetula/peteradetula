@@ -6,7 +6,7 @@ badge: 'Services details'
 feature:
   [
     'Turning wireframes into high-fidelity mockups with colours, typography, imagery, and branding applied. Also, applying design principles so the product is intuitive, inclusive',
-    'Specifying how elements respond to user actions (animations, transitions, hover states, etc.).',
+    'Specifying how elements respond to user actions using animations, transitions etc.',
   ]
 ---
 

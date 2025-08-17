@@ -10,9 +10,9 @@ import '../scss/main.scss'
 export const metadata: Metadata = {
   title: 'Rivor Template',
   icons: {
-    icon: '/images/peteradetula-nobg.png',
-    shortcut: '/images/peteradetula-nobg.png',
-    apple: '/images/peteradetula-nobg.png',
+    icon: '/images/logo.png',
+    shortcut: '/images/logo.png',
+    apple: '/images/logo.png',
   },
 }
 

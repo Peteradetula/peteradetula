@@ -39,8 +39,9 @@ const ServicesV14 = () => {
           <RevealWrapper
             key={service.slug}
             className="reveal-me group border px-6 py-9 dark:border-dark lg:px-[30px] lg:py-[50px]">
-            <Link href={`/services/${service.slug}`}>
-              <figure>
+            {/* <Link href={`/services/${service.slug}`}> */}
+            <div>
+              {/* <figure>
                 <Image
                   src={service.logo}
                   alt="Light Logo"
@@ -55,10 +56,10 @@ const ServicesV14 = () => {
                   width={60}
                   height={60}
                 />
-              </figure>
+              </figure> */}
               <h5 className="mb-2 mt-4 lg:mb-3 lg:mt-6">{service.title}</h5>
               <p className="mb-20 lg:mb-[106px]">{service.description}</p>
-              <div className="flex items-center justify-center overflow-hidden border p-8 transition-colors duration-[400ms] ease-team-bezier group-hover:bg-secondary dark:border-dark dark:group-hover:bg-backgroundBody max-lg:size-16 lg:h-24 lg:w-[92px]">
+              {/* <div className="flex items-center justify-center overflow-hidden border p-8 transition-colors duration-[400ms] ease-team-bezier group-hover:bg-secondary dark:border-dark dark:group-hover:bg-backgroundBody max-lg:size-16 lg:h-24 lg:w-[92px]">
                 <span className="translate-x-4 transition-transform duration-[400ms] group-hover:translate-x-20">
                   <svg xmlns="http://www.w3.org/2000/svg" width={33} height={32} viewBox="0 0 33 32" fill="none">
                     <path
@@ -91,8 +92,9 @@ const ServicesV14 = () => {
                     />
                   </svg>
                 </span>
-              </div>
-            </Link>
+              </div> */}
+              {/* </Link> */}
+            </div>
           </RevealWrapper>
         ))}
       </div>

@@ -15,16 +15,5 @@
       { "href": "/faq", "label": "FAQ" },
       { "href": "/contact", "label": "Let's chat" }
     ]
-  },
-  {
-    "title": "Important Link",
-    "links": [
-      { "href": "/faq", "label": "FAQ" },
-      { "href": "", "label": "Career 02" },
-      { "href": "", "label": "career Details" },
-      { "href": "", "label": "Team" },
-      { "href": "", "label": "Team Details" },
-      { "href": "", "label": "Changelog" }
-    ]
   }
 ]
