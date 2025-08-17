@@ -16,8 +16,6 @@ const ContactForm = () => {
 
   const formSpreeID: string = (process.env.NEXT_PUBLIC_FORMSPREE_ID as string) || 'mldlzeae'
 
-  // console.log('FormSpree ID: ', formSpreeID)
-
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target
     setFormData((prev) => ({ ...prev, [name]: value }))
