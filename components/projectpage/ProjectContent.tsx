@@ -2,6 +2,7 @@ import ReactMarkdown from 'react-markdown'
 import rehypeSlug from 'rehype-slug'
 import RevealWrapper from '../animation/RevealWrapper'
 import TableOfContent from '../shared/TableOfContent'
+import './ProjectPage.css'
 
 const ProjectContent = async ({ project }: any) => {
   const headings = project.content.match(/### .+/g) ?? []
@@ -16,7 +17,7 @@ const ProjectContent = async ({ project }: any) => {
               <TableOfContent tableOfContents={tableOfContents} />
             </div>
           </aside>
-          <article className="project-details-body overflow-hidden text-gray-800 dark:text-gray-300 [&>*]:scroll-mt-20">
+          <article className="project-details-body overflow-hidden text-black dark:text-white [&>*]:scroll-mt-20">
             <RevealWrapper as="figure" className="max-w-[870px] md:h-[480px]">
               <img src={project.data.thumbnail} alt="Services Big Img" className="h-full w-full object-cover" />
             </RevealWrapper>

@@ -10,15 +10,12 @@ const Testimonial = () => {
         <div className="mb-10 md:mb-20">
           <TextAppearAnimation>
             <h2 className="text-appear text-center">
-              Client <i className="font-instrument italic">testimonials</i>
+              Professional <i className="font-instrument italic">feedback</i>
             </h2>
           </TextAppearAnimation>
           <TextAppearAnimation>
             <p className="text-appear mx-auto mt-1.5 max-w-xl text-center md:mt-6 lg:max-w-3xl">
-              {/* "I've been using this service for over a year, and it has significantly improved my workflow. Highly
-              recommended for professionals looking for efficiency and reliability */}
-              {/* Don't take my word for it,   */}
-              Don't take my word for it, here's what some of my amazing clients have to say about their experience
+              Don't take my word for it, here's what some of my amazing colleagues have to say about their experience
               working with me.
             </p>
           </TextAppearAnimation>

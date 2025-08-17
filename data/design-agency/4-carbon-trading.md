@@ -1,6 +1,6 @@
 ---
-title: 'Carbon Trading'
-description: 'Create a platform where users globally to instantly pay a business in Kenya from anywhere in the world using mobile money and allow users share money on the app with their friends and family'
+title: 'EPTB Analytics'
+description: 'A platform to manage Shell’s regulated carbon credit market and share insights.'
 thumbnail: '/images/carbon-trading-thumbnail.png'
 coverImage: '/images/services/services-details-img.png'
 badge: 'Project case study'
@@ -34,11 +34,11 @@ Shell EPTB Analytics delivers a clear, intuitive experience that helps users qui
 
 ![Image 3](/images/carbon-trading-3-1.png)
 
-NES Analytics Product Roadmap
+**NES Analytics Product Roadmap**
 
 ![Image 3](/images/carbon-trading-3-2.png)
 
-Problems and goal settings
+**Problems and goal settings**
 
 ![Image 4](/images/carbon-trading-4.png)
 
@@ -60,7 +60,7 @@ An empathy map was created as a simple UX tool that helps teams understand users
 
 ![Image 8](/images/carbon-trading-8.png)
 
-Data analysis & ideations
+**Data analysis & ideations**
 
 ![Image 9](/images/carbon-trading-9.png)
 

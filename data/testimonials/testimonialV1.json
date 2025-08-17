@@ -4,7 +4,7 @@
     "name": "Utku Yildiz",
     "role": "Senior Product Manager, Tesco",
     "image": "/images/utku-yildiz.png",
-    "feedback": "I've worked with Peter for around 6 months where he was a UI designer as part of my product team. He was responsive, flexible, and always had a positive attitude. He closely worked with the UX designer in the team to move the concepts into UI design, and worked with the development team to walk them through the designs, and supported them throughout the implementation. He was very supportive to the members of the whole product team, and with his positive attitude and willingness to learn, I am sure he will be very valuable to any team."
+    "feedback": "Peter worked as a UI designer on my product team for 6 months. He was responsive, flexible, and collaborative, working closely with UX designers and developers to bring concepts to life and support implementation. His positive attitude, team support, and eagerness to learn make him a valuable asset to any team."
   },
   {
     "id": 2,
@@ -26,5 +26,26 @@
     "role": "Product Marketing Leader, Afrilearn",
     "image": "/images/isaac-oladipupo.png",
     "feedback": "Peter brings a unique blend of creativity and strategic thinking to every project. His ability to translate complex requirements into intuitive designs is remarkable."
+  },
+  {
+    "id": 5,
+    "name": "Eirini Pavlidou",
+    "role": "UX Researcher, Tesco",
+    "image": "/images/eirini-pavlidou.png",
+    "feedback": "Peter's research-driven approach to design is impressive. He consistently validates design decisions with user insights and creates solutions that truly meet user needs."
+  },
+  {
+    "id": 6,
+    "name": "Oluwaseyi Ogunsola, Ph.D.",
+    "role": "Technology Team Lead, Shell",
+    "image": "/images/oluwaseyi-ogunsola.png",
+    "feedback": "Peter's technical understanding and design expertise made our AI project successful. His ability to bridge the gap between complex technology and user experience is exceptional."
+  },
+  {
+    "id": 7,
+    "name": "Paula Grzesiak",
+    "role": "Executive Tech Recruiter, Templeton and Partners",
+    "image": "/images/paula-grzesiak.png",
+    "feedback": "Peter stands out as a top-tier product designer. His portfolio demonstrates strong problem-solving skills and his professional approach makes him highly sought after in the market."
   }
 ]

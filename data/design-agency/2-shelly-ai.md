@@ -1,6 +1,6 @@
 ---
-title: 'Shelly AI'
-description: 'AI-powered assistant that provides instant, accurate, and secure access to critical knowledge across Shell’s ecosystem. By reducing dependency on SMEs and streamlining information retrieval, Virtual SME enhances productivity, optimizes workflows, and empowers employees to work smarter and faster. Allowing a system that can access all knowledge required based on your role  while maintaining and complying with company security'
+title: 'Shelly.AI'
+description: 'AI-powered assistant that provides instant, accurate, and secure access to critical knowledge across Shell’s ecosystem.'
 thumbnail: '/images/shelly-ai-thumbnail.png'
 coverImage: '/images/shelly-ai-1.png'
 badge: 'Project case study'
@@ -10,81 +10,84 @@ badge: 'Project case study'
 
 At Shell PLC, knowledge is power—but accessing it has long been a challenge. With a vast, intricate ecosystem spanning engineering, supply chain, legal, HR, and finance, employees constantly seek expert guidance on processes, compliance, and technical documentation. However, with thousands of employees navigating complex workflows daily, finding the right information at the right time can be a frustrating and time-consuming process.
 
-The Challenge: Shell PLC operates across multiple departments, where employees frequently rely on Subject Matter Experts (SMEs) for guidance on processes, compliance, and technical documentation. However, SME availability is limited, leading to inefficiencies, knowledge silos, and delays in decision-making.
+**The Challenge:** Shell PLC operates across multiple departments, where employees frequently rely on Subject Matter Experts (SMEs) for guidance on processes, compliance, and technical documentation. However, SME availability is limited, leading to inefficiencies, knowledge silos, and delays in decision-making.
 
-### The Goal: Enterprise Design Thinking at Shell
+### The Goal:
 
-To guide the design of the Virtual SME at Shell, we adopted the principles of Enterprise Design Thinking—a structured, human-centered approach originally developed by IBM. This framework helped us align diverse stakeholders around a shared vision, accelerate decision-making, and deliver value at scale within Shell’s complex, cross-functional environment.
+To guide the design of the Virtual SME at Shell, we adopted the principles of Enterprise Design Thinking—a structured, human-centered approach originally developed by IBM. This framework helped us align diverse stakeholders around a shared vision, accelerate decision-making, and deliver value at scale within Shell's complex, cross-functional environment.
 
 ### Discovery - Understanding Employee Challenges
 
-1. Sponsor Users
+**Sponsor Users**
 
-   > Key stakeholders from each department served as Sponsor Users, guiding the project with domain-specific insights. Their involvement was critical in identifying pain points, validating ideas, and ensuring the AI assistant reflected real-world needs across Shell's organizational landscape.
+Key stakeholders from each department served as Sponsor Users, guiding the project with domain-specific insights. Their involvement was critical in identifying pain points, validating ideas, and ensuring the AI assistant reflected real-world needs across Shell's organizational landscape.
 
-2. Playbacks
-   > We conducted weekly playbacks with our lead stakeholder and department sponsors to review progress, align on priorities, and iterate on design decisions. These sessions acted as feedback loops—ensuring that we stayed focused on solving the right problems, while adapting quickly to new insights or constraints.
+**Playbacks**
+
+We conducted weekly playbacks with our lead stakeholder and department sponsors to review progress, align on priorities, and iterate on design decisions. These sessions acted as feedback loops—ensuring that we stayed focused on solving the right problems, while adapting quickly to new insights or constraints.
 
 By anchoring the project in Enterprise Design Thinking, we were able to rapidly co-create a solution that not only solved for immediate knowledge access issues, but also laid the foundation for scalable, AI-driven knowledge enablement across Shell.
 
-Key Findings from Interviews
+**Key Findings from Interviews**
 (Based on 36 in-depth conversations across Finance, Legal, HR, and Engineering)
 
-1. Fragmented Knowledge Access
+**Fragmented Knowledge Access**
 
-   > “I spend 30–40% of my time searching for internal documents or asking SMEs for guidance.” — Finance
-   > “Even if I find the right document, it’s often outdated or doesn’t apply to my region.” — Legal
+> "I spend 30–40% of my time searching for internal documents or asking SMEs for guidance." — Finance
+> "Even if I find the right document, it's often outdated or doesn't apply to my region." — Legal
 
-   &nbsp;
+&nbsp;
 
-2. Overloaded Subject Matter Experts (SMEs)
+**Overloaded Subject Matter Experts (SMEs)**
 
-   > “I get the same questions multiple times a week, but there’s no structured way to share my responses.” — Engineering SME
-   > “We have critical knowledge stored in people’s heads, not in an accessible system.” — HR
+> "I get the same questions multiple times a week, but there's no structured way to share my responses." — Engineering SME
+> "We have critical knowledge stored in people's heads, not in an accessible system." — HR
 
-   &nbsp;
+&nbsp;
 
-3. Lack of Standardised Processes
+**Lack of Standardised Processes**
 
-   > “Each department has its own way of handling approvals, compliance checks, and technical requests, making cross-team collaboration frustrating.” — Finance
-   > “There’s no single source of truth—some people follow old protocols, while others use new systems without proper training.” — Legal
+> "Each department has its own way of handling approvals, compliance checks, and technical requests, making cross-team collaboration frustrating." — Finance
+> "There's no single source of truth—some people follow old protocols, while others use new systems without proper training." — Legal
 
-   &nbsp;
+&nbsp;
 
-4. Compliance & Security Risks
-   > “Employees sometimes rely on outdated or unofficial workarounds to get things done, which can lead to compliance issues.” — Legal
-   > “Some confidential data gets shared via email or chat because there’s no clear, secure alternative.” — HR
+**Compliance & Security Risks**
 
-Survey Insights - Quantitative Findings (Based on company-wide responses)
+> "Employees sometimes rely on outdated or unofficial workarounds to get things done, which can lead to compliance issues." — Legal
+> "Some confidential data gets shared via email or chat because there's no clear, secure alternative." — HR
+
+**Survey Insights - Quantitative Findings** (Based on company-wide responses)
 
 ![Image 1](/images/shelly-ai-1.png)
 
-Service Blueprint Analysis (Key Pain Points Mapped)
+**Service Blueprint Analysis** (Key Pain Points Mapped)
 
-1. Information Retrieval Delays
+**Information Retrieval Delays**
 
-   > Employees navigate multiple systems (intranet, SharePoint, email threads) to find answers.
-   > No centralized search function, leading to wasted time and frustration.
+> Employees navigate multiple systems (intranet, SharePoint, email threads) to find answers.
+> No centralized search function, leading to wasted time and frustration.
 
-   &nbsp;
+&nbsp;
 
-2. SME Bottlenecks
+**SME Bottlenecks**
 
-   > SMEs answer repetitive questions instead of focusing on high-value work.
-   > Knowledge isn’t systematically documented or shared.
+> SMEs answer repetitive questions instead of focusing on high-value work.
+> Knowledge isn't systematically documented or shared.
 
-   &nbsp;
+&nbsp;
 
-3. Workflow Silos & Inefficiencies
+**Workflow Silos & Inefficiencies**
 
-   > Different departments operate in isolation, leading to duplicated efforts.
-   > Employees rely on informal networks rather than structured knowledge-sharing.
+> Different departments operate in isolation, leading to duplicated efforts.
+> Employees rely on informal networks rather than structured knowledge-sharing.
 
-   &nbsp;
+&nbsp;
 
-4. Security & Compliance Gaps
-   > Critical data is stored in unregulated channels like personal emails or private chat groups.
-   > No clear governance for maintaining up-to-date policies and technical documentation.
+**Security & Compliance Gaps**
+
+> Critical data is stored in unregulated channels like personal emails or private chat groups.
+> No clear governance for maintaining up-to-date policies and technical documentation.
 
 ![Image 2](/images/shelly-ai-2.png)
 
@@ -92,166 +95,169 @@ A short, fictional profile that represents a key segment of my target audience k
 
 ![Image 3](/images/shelly-ai-3.png)
 
-Workshop: I also hosted a workshop with stakeholders and key players in both the decision-making and SME spaces. This collaborative session helped us define pain points and map out organizational needs and works to be be done.
+**Workshop:** I also hosted a workshop with stakeholders and key players in both the decision-making and SME spaces. This collaborative session helped us define pain points and map out organizational needs and works to be be done.
 
 ### Solution/Design And User Testing
 
-We developed Virtual SME, an AI-powered assistant that provides instant, accurate, and secure access to critical knowledge across Shell’s ecosystem. By reducing dependency on SMEs and streamlining information retrieval, Virtual SME enhances productivity, optimizes workflows, and empowers employees to work smarter and faster. Allowing a system that can access all knowledge required based on your role while maintain and complying with company security
+We developed Virtual SME, an AI-powered assistant that provides instant, accurate, and secure access to critical knowledge across Shell's ecosystem. By reducing dependency on SMEs and streamlining information retrieval, Virtual SME enhances productivity, optimizes workflows, and empowers employees to work smarter and faster. Allowing a system that can access all knowledge required based on your role while maintain and complying with company security
 
 ![Image 4](/images/shelly-ai-4.png)
 
-Product Design Roadmap:
+**Product Design Roadmap:**
 
 ![Image 5](/images/shelly-ai-5.png)
 
-### Defining the AI Experience
+### Defining The AI Experience
 
-Key Goals for Virtual SME
+&nbsp;
 
-1. Personalized AI for Every Department
+**Personalized AI for Every Department**
 
-   > Adaptive AI trained on department-specific knowledge.
-   > Role-based access to sensitive information.
+> Adaptive AI trained on department-specific knowledge.
+> Role-based access to sensitive information.
 
-   &nbsp;
+&nbsp;
 
-2. Seamless Knowledge Retrieval
+**Seamless Knowledge Retrieval**
 
-   > Natural language search for internal documentation & compliance policies.
-   > Context-aware responses tailored to Shell’s workflows.
+> Natural language search for internal documentation & compliance policies.
+> Context-aware responses tailored to Shell's workflows.
 
-   &nbsp;
+&nbsp;
 
-3. AI-Powered Process Automation
+**AI-Powered Process Automation**
 
-   > Automate routine queries (e.g., approval workflows, expense policies).
-   > Integrate with internal systems (SAP, SharePoint, ServiceNow).
+> Automate routine queries (e.g., approval workflows, expense policies).
+> Integrate with internal systems (SAP, SharePoint, ServiceNow).
 
-   &nbsp;
+&nbsp;
 
-4. Security & Compliance by Design
-   > Role-based access controls (RBAC) ensure only authorized personnel see certain data.
-   > AI explains sources & citations for transparency.
+**Security & Compliance by Design**
+
+> Role-based access controls (RBAC) ensure only authorized personnel see certain data.
+> AI explains sources & citations for transparency.
 
 ### Design and User testing
 
 We explored different UI approaches, prioritizing:
 
-1. ✔ Conversational Interface – Employees interact naturally, like chatting with an SME.
-2. ✔ Quick Actions & Summarization – AI provides direct answers + links to policies.
-3. ✔ Department-Specific Dashboards – Custom views for different roles (e.g., Finance, HR).
+- ✔ Conversational Interface – Employees interact naturally, like chatting with an SME.
+- ✔ Quick Actions & Summarization – AI provides direct answers + links to policies.
+- ✔ Department-Specific Dashboards – Custom views for different roles (e.g., Finance, HR).
 
 &nbsp;
 
-Early Wireframe Explorations
+**Early Wireframe Explorations**
 
-1. ✅ Home Screen: Personalized dashboard with department-relevant AI insights.
-   &nbsp;
-2. ✅ Chat Interface: Smart filtering of responses based on user permissions.
-   &nbsp;
-3. ✅ Task Automation: Approvals, compliance checks, and knowledge retrieval.
-   &nbsp;
-4. ✅ Integrations: Sharepoint, salesforce.
+- ✅ Home Screen: Personalized dashboard with department-relevant AI insights.
+  &nbsp;
+- ✅ Chat Interface: Smart filtering of responses based on user permissions.
+  &nbsp;
+- ✅ Task Automation: Approvals, compliance checks, and knowledge retrieval.
+  &nbsp;
+- ✅ Integrations: Sharepoint, salesforce.
 
 &nbsp;
 
 I developed a scalable design system for internal Shell applications:
 
-1. 🎨 Shell Redefined UI – Aligning with Shell’s corporate branding & accessibility standards.
-2. 📚 Modular Components – Chat UI, Quick Actions, Dashboard Cards.
-3. 🌙 Dark Mode & High-Contrast Mode – Optimized for on-site engineers & global teams.
+- 🎨 Shell Redefined UI – Aligning with Shell's corporate branding & accessibility standards.
+- 📚 Modular Components – Chat UI, Quick Actions, Dashboard Cards.
+- 🌙 Dark Mode & High-Contrast Mode – Optimized for on-site engineers & global teams.
 
 &nbsp;
 
-High-Fidelity Designs & Core Features: After multiple iterations, we developed Virtual SME’s high-fidelity prototype.
+**High-Fidelity Designs & Core Features:** After multiple iterations, we developed Virtual SME's high-fidelity prototype.
 
-Key Features:
+**Key Features:**
 
-1. ✅ Department-Specific Knowledge Retrieval
+- ✅ **Department-Specific Knowledge Retrieval**
 
-   - Engineers get technical documents & troubleshooting steps.
-   - HR retrieves policy updates & compliance FAQs.
-   - Finance automates regulatory reporting & data checks.
+  - Engineers get technical documents & troubleshooting steps.
+  - HR retrieves policy updates & compliance FAQs.
+  - Finance automates regulatory reporting & data checks.
 
-   &nbsp;
+  &nbsp;
 
-2. ✅ AI-Driven Personalization
+- ✅ **AI-Driven Personalization**
 
-   - Learn from past queries to refine responses.
-   - Suggests frequently accessed resources per user.
+  - Learn from past queries to refine responses.
+  - Suggests frequently accessed resources per user.
 
-   &nbsp;
+  &nbsp;
 
-3. ✅ Seamless Integrations
+- ✅ **Seamless Integrations**
 
-   - Connects to SAP, SharePoint, ServiceNow, and internal databases.
+  - Connects to SAP, SharePoint, ServiceNow, and internal databases.
 
-   &nbsp;
+  &nbsp;
 
-4. ✅ AI-Powered Process Automation
+- ✅ **AI-Powered Process Automation**
 
-   - Auto-fills forms & approval requests.
-   - Predicts next steps based on workflow patterns.
+  - Auto-fills forms & approval requests.
+  - Predicts next steps based on workflow patterns.
 
-   &nbsp;
+  &nbsp;
 
-5. ✅ Security & Transparency
-   - Shows source citations for AI-generated responses.
-   - Logs AI interactions for audibility.
+- ✅ **Security & Transparency**
+  - Shows source citations for AI-generated responses.
+  - Logs AI interactions for audibility.
 
 ![Image 6](/images/shelly-ai-6.png)
 
-User Testing: We launched a pilot program with 500 Shell employees across different departments.
+**User Testing:** We launched a pilot program with 500 Shell employees across different departments.
 
-Key Metrics & Results
+**Key Metrics & Results**
 
-1. 📊 Search efficiency improved by 60% – Employees found relevant info in seconds, not hours.
-2. 📊 Workload on SMEs reduced by 45%, freeing experts for strategic tasks.
-3. 📊 Employee satisfaction increased by 35% – AI was seen as a reliable, efficient assistant.
+- 📊 Search efficiency improved by 60% – Employees found relevant info in seconds, not hours.
+- 📊 Workload on SMEs reduced by 45%, freeing experts for strategic tasks.
+- 📊 Employee satisfaction increased by 35% – AI was seen as a reliable, efficient assistant.
 
 &nbsp;
 
-🔄 Iterations based on feedback:
+**🔄 Iterations based on feedback:**
 
 - Enhanced role-based permissions to refine data access.
+  &nbsp;
 - Improved AI explanations for trust & transparency.
+  &nbsp;
 - Faster response times through optimized internal database queries.
 
 &nbsp;
 
-Business Impact & UX Value
+**Business Impact & UX Value**
 
-- 💡 Operational Efficiency Gains
+- 💡 **Operational Efficiency Gains**
 - 🔹 $20M+ annual savings by reducing SME dependency on routine inquiries.
 - 🔹 Faster policy compliance checks, reducing regulatory risks.
 - 🔹 Improved workforce productivity, allowing employees to focus on high-value tasks.
-- 🌍 Virtual SME became a game-changer in Shell’s digital transformation, fostering AI-driven efficiency and knowledge-sharing.
+- 🌍 Virtual SME became a game-changer in Shell's digital transformation, fostering AI-driven efficiency and knowledge-sharing.
 
 &nbsp;
 
-Lessons Learned & Future Considerations
+**Lessons Learned & Future Considerations**
 
-1. 📌 One AI Model Doesn’t Fit All
+- 📌 **One AI Model Doesn't Fit All**
 
-   - Different departments required tailored AI models for relevance.
+  - Different departments required tailored AI models for relevance.
 
-   &nbsp;
+  &nbsp;
 
-2. 📌 Trust & Explainability Matter
+- 📌 **Trust & Explainability Matter**
 
-   - Employees were more likely to trust AI when explanations were transparent.
+  - Employees were more likely to trust AI when explanations were transparent.
 
-   &nbsp;
+  &nbsp;
 
-3. 📌 Seamless Integration is Key
-   - Embedding Virtual SME into existing Shell workflows increased adoption rates.
-   - 🚀 Next Steps: AI-powered collaboration tools, voice-based interactions, and deeper process automation.
+- 📌 **Seamless Integration is Key**
+  - Embedding Virtual SME into existing Shell workflows increased adoption rates.
+  - 🚀 Next Steps: AI-powered collaboration tools, voice-based interactions, and deeper process automation.
 
 &nbsp;
 
-Final Thoughts
+**Final Thoughts**
 
-Virtual SME proved that AI isn’t just about answering questions—it’s about empowering employees with smarter, faster, and more personalized knowledge solutions.
-Want to discuss AI-driven enterprise solutions? Let’s connect! 🚀
+Virtual SME proved that AI isn't just about answering questions—it's about empowering employees with smarter, faster, and more personalized knowledge solutions.
+Want to discuss AI-driven enterprise solutions? Let's connect! 🚀
 
 ![Image 7](/images/shelly-ai-7.png)
