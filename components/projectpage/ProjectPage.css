@@ -1,11 +1,11 @@
-.project-details-body {
+#project-details-body {
   color: black !important;
 }
 
-.dark .project-details-body {
+#dark .project-details-body {
   color: white !important;
 }
 
-.project-details-body * {
+#project-details-body * {
   color: inherit !important;
 }
