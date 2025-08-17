@@ -12,18 +12,18 @@ feature:
 
 ### Service overview
 
-At Rivor, we specialize in delivering comprehensive solutions that empower designers and businesses to bring their online visions to life. Our Figma to Framer conversion service streamlines the process of turning your Figma designs into stunning, fully functional websites on the Framer platform. With our expert team of developers and designers, we ensure a smooth transition from design to deployment, allowing you to focus on your core objectives while we take care of the technical details.
+I believe great design starts with deep understanding. My research approach combines user insights with business strategy to create products that truly resonate with your audience. Through systematic investigation of user needs, behaviors, and pain points, I lay the foundation for design decisions that drive meaningful results.
 
-### Our service includes
+### My research includes
 
-In-Depth Research and Analysis: We conduct thorough research to understand your brand, target audience, and industry trends, ensuring your website aligns with your business goals.
+User Research & Interviews: I conduct one-on-one interviews and surveys to understand your users' motivations, frustrations, and goals, ensuring every design decision is grounded in real user needs.
 
-Competitor Analysis: A comprehensive review of your competitors' digital presence to identify opportunities and gaps, helping you stand out in the market.
+Competitive Analysis: I analyze your competitors' strengths and weaknesses to identify opportunities for differentiation and innovation in your product space.
 
-User Experience (UX) Research: We gather insights on user behavior to inform design decisions, creating a website that offers an intuitive and engaging experience for visitors.
+Usability Testing: I test existing products or prototypes with real users to uncover usability issues and validate design assumptions before development.
 
-### Why Choose Us
+### Why work with me
 
-SEO and Content Strategy Research: We develop strategies based on keyword research and content trends to improve your site's visibility and search ranking
+Data-Driven Insights: I combine qualitative research with analytics to provide actionable insights that inform both immediate design decisions and long-term product strategy.
 
-Technology and Platform Research: Our team evaluates the best technologies and platforms to ensure your website is built with the latest tools for optimal performance and scalability. the 'Best Sellers No-Code Website'! Seamlessly blending creativity and functionality, this innovative platform empowers businesses to showcase their top products with style and efficiency. Say goodbye to coding hassles and hello to
+User-Centered Approach: My research methodology ensures your product solves real problems for real people, leading to higher user satisfaction and business success.

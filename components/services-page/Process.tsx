@@ -22,7 +22,7 @@ const Process = () => {
                 Request
               </h3>
               <p className="text-base leading-[1.4] tracking-[0.32px]">
-                We mostly work on a fixed-bid basis for our projects, focusing on a select few clients at a time.
+                I start by understanding your needs, goals, and challenges through detailed discussions and research.
               </p>
             </RevealWrapper>
 
@@ -34,7 +34,7 @@ const Process = () => {
                 Approve
               </h3>
               <p className="text-base leading-[1.4] tracking-[0.32px]">
-                We mostly work on a fixed-bid basis for our projects, focusing on a select few clients at a time.
+                I present my approach, timeline, and deliverables for your review and approval before we begin.
               </p>
             </RevealWrapper>
 
@@ -46,7 +46,7 @@ const Process = () => {
                 Develop
               </h3>
               <p className="text-base leading-[1.4] tracking-[0.32px]">
-                We mostly work on a fixed-bid basis for our projects, focusing on a select few clients at a time.
+                I create user-centered designs through research, prototyping, and iterative testing with your feedback.
               </p>
             </RevealWrapper>
 
@@ -58,7 +58,7 @@ const Process = () => {
                 Deliver
               </h3>
               <p className="text-base leading-[1.4] tracking-[0.32px]">
-                We mostly work on a fixed-bid basis for our projects, focusing on a select few clients at a time.
+                I provide polished designs with detailed handoffs and support throughout the implementation process.
               </p>
             </RevealWrapper>
           </div>

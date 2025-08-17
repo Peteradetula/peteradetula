@@ -11,18 +11,18 @@ feature:
 
 ### Service overview
 
-At Rivor, we specialize in delivering comprehensive solutions that empower designers and businesses to bring their online visions to life. Our Figma to Framer conversion service streamlines the process of turning your Figma designs into stunning, fully functional websites on the Framer platform. With our expert team of developers and designers, we ensure a smooth transition from design to deployment, allowing you to focus on your core objectives while we take care of the technical details.
+Validation is crucial before launch. I test designs with real users to ensure they work as intended, identifying issues early and refining the experience based on actual user behavior. This approach saves development time and ensures your product launches with confidence.
 
-### Our service includes
+### My testing approach includes
 
-In-Depth Research and Analysis: We conduct thorough research to understand your brand, target audience, and industry trends, ensuring your website aligns with your business goals.
+Usability Testing: I conduct moderated and unmoderated testing sessions where users complete real tasks with your product, revealing pain points and areas for improvement.
 
-Competitor Analysis: A comprehensive review of your competitors' digital presence to identify opportunities and gaps, helping you stand out in the market.
+A/B Testing: I design and analyze tests comparing different design approaches to determine which solutions perform better for your specific goals and users.
 
-User Experience (UX) Research: We gather insights on user behavior to inform design decisions, creating a website that offers an intuitive and engaging experience for visitors.
+Accessibility Testing: I ensure your product works for users with disabilities, testing with assistive technologies and following WCAG guidelines for inclusive design.
 
-### Why Choose Us
+### Why work with me
 
-SEO and Content Strategy Research: We develop strategies based on keyword research and content trends to improve your site's visibility and search ranking
+Evidence-Based Decisions: I use real user data to validate design decisions, reducing guesswork and ensuring your product meets actual user needs.
 
-Technology and Platform Research: Our team evaluates the best technologies and platforms to ensure your website is built with the latest tools for optimal performance and scalability. the 'Best Sellers No-Code Website'! Seamlessly blending creativity and functionality, this innovative platform empowers businesses to showcase their top products with style and efficiency. Say goodbye to coding hassles and hello to
+Continuous Improvement: I believe testing is ongoing—I help establish processes for continuous user feedback and iterative improvements post-launch.

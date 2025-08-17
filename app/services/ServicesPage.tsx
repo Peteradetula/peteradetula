@@ -12,7 +12,7 @@ interface WorkType {
   [key: string]: any
 }
 
-const services: WorkType[] = getMarkDownData('data/servicesV3')
+const services: WorkType[] = getMarkDownData('data/servicesV2')
 
 const ServicesV14 = () => {
   return (
@@ -34,12 +34,12 @@ const ServicesV14 = () => {
           </p>
         </TextAppearAnimation>
       </div>
-      <div className="mx-auto grid max-w-[1600px] grid-cols-1 gap-[30px] px-4 md:grid-cols-2 md:px-[30px] 2xl:grid-cols-3">
+      <div className="mx-auto grid max-w-[1600px] grid-cols-1 gap-[30px] px-4 md:grid-cols-2 md:px-[30px] 2xl:grid-cols-2">
         {services.map((service) => (
           <RevealWrapper
             key={service.slug}
             className="reveal-me group border px-6 py-9 dark:border-dark lg:px-[30px] lg:py-[50px]">
-            <Link href={`/marketing/services/${service.slug}`}>
+            <Link href={`/services/${service.slug}`}>
               <figure>
                 <Image
                   src={service.logo}

@@ -12,18 +12,18 @@ feature:
 
 ### Service overview
 
-At Rivor, we specialize in delivering comprehensive solutions that empower designers and businesses to bring their online visions to life. Our Figma to Framer conversion service streamlines the process of turning your Figma designs into stunning, fully functional websites on the Framer platform. With our expert team of developers and designers, we ensure a smooth transition from design to deployment, allowing you to focus on your core objectives while we take care of the technical details.
+Transforming research insights into actionable design concepts is where strategy meets creativity. I translate user needs and business goals into clear product directions, creating the blueprint for solutions that users will love and businesses will benefit from.
 
-### Our service includes
+### My conceptualisation includes
 
-In-Depth Research and Analysis: We conduct thorough research to understand your brand, target audience, and industry trends, ensuring your website aligns with your business goals.
+Information Architecture: I organize and structure content and features in ways that make sense to users, creating intuitive navigation and logical product flows.
 
-Competitor Analysis: A comprehensive review of your competitors' digital presence to identify opportunities and gaps, helping you stand out in the market.
+User Journey Mapping: I map out how users will interact with your product from start to finish, identifying key touchpoints and opportunities for engagement.
 
-User Experience (UX) Research: We gather insights on user behavior to inform design decisions, creating a website that offers an intuitive and engaging experience for visitors.
+Wireframing & Prototyping: I create low-fidelity wireframes and interactive prototypes to test concepts quickly and iterate on ideas before investing in high-fidelity design.
 
-### Why Choose Us
+### Why work with me
 
-SEO and Content Strategy Research: We develop strategies based on keyword research and content trends to improve your site's visibility and search ranking
+Strategic Thinking: I balance user needs with business objectives, ensuring concepts are both desirable for users and viable for your business.
 
-Technology and Platform Research: Our team evaluates the best technologies and platforms to ensure your website is built with the latest tools for optimal performance and scalability. the 'Best Sellers No-Code Website'! Seamlessly blending creativity and functionality, this innovative platform empowers businesses to showcase their top products with style and efficiency. Say goodbye to coding hassles and hello to
+Iterative Approach: I believe in testing and refining concepts early, saving time and resources while ensuring the final product meets both user and business needs.
