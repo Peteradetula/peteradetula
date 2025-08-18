@@ -8,7 +8,7 @@ import { ReactNode, Suspense } from 'react'
 import '../scss/main.scss'
 
 export const metadata: Metadata = {
-  title: 'Rivor Template',
+  title: 'Peter Adetula',
   icons: {
     icon: '/images/logo.png',
     shortcut: '/images/logo.png',
