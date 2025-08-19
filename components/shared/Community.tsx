@@ -1,5 +1,5 @@
 'use client'
-import communityImg from '@/public/images/community-image.jpg'
+import communityImg from '@/public/images/community.webp'
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { useState } from 'react'
