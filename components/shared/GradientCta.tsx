@@ -3,6 +3,7 @@ import Image from 'next/image'
 import CtaImageSlider from './CtaImageSlider'
 import RevealWrapper from '../animation/RevealWrapper'
 import Link from 'next/link'
+import LetsChat from '../LetsChat/LetsChat'
 
 const GradientCta = () => {
   const buttonText: string = 'Contact Me'
@@ -42,7 +43,7 @@ const GradientCta = () => {
       <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 scale-x-[2.5] scale-y-[0.60]">
         <Image src={gradientBg} alt="Gradient Bg" />
       </div>
-      <div className="container">
+      {/* <div className="container">
         <div className="reveal-me">
           <h2 className="text-center font-normal xl:text-[96px] xl:leading-[1.4] xl:tracking-[-2.88px]">
             Let's chat
@@ -57,7 +58,9 @@ const GradientCta = () => {
           </h2>
         </div>
         {renderForm()}
-      </div>
+      </div> */}
+
+      <LetsChat />
     </section>
   )
 }

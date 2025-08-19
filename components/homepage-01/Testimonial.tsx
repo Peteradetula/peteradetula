@@ -25,17 +25,17 @@ const Testimonial = () => {
             <RevealWrapper
               as="div"
               key={id}
-              className="reveal-me flex flex-col gap-5 border px-[30px] py-[30px] dark:border-dark">
-              <div className="flex items-center gap-[15px]">
+              className="reveal-me flex flex-col border px-[15px] py-[30px] dark:border-dark">
+              <div className="flex items-center gap-4">
                 <figure>
-                  <Image src={image} alt={`Review by ${name}`} width={50} height={50} />
+                  <Image className="rounded-full" src={image} alt={`Review by ${name}`} width={50} height={50} />
                 </figure>
-                <div>
+                <div className="">
                   <h3 className="text-2xl font-medium leading-[28.8px] tracking-wide">{name}</h3>
-                  <p className="mt-[3.5px] text-base font-light leading-5">{role}</p>
+                  <p className="mt-[2px] text-base font-light leading-5">{role}</p>
                 </div>
               </div>
-              <p className="text-base italic md:text-[17px] md:leading-6 md:tracking-[0.9px]">{feedback}</p>
+              <p className="mt-5 text-base italic md:text-[17px] md:leading-6 md:tracking-[0.9px]">{feedback}</p>
             </RevealWrapper>
           ))}
         </div>

@@ -62,6 +62,8 @@ I divided users into more refined groups of buyers based on selected characteris
 
 I segmented users into more refined buyer groups based on key characteristics, using a framework that considered demographics (age, education, gender), geography (urban vs. rural), psychographics (personal attributes), and behavioural patterns (buying behavior).
 
+**User persona:**
+
 ![Image 7](/images/digital-clubcard-7.png)
 
 **Empathy Map & Competitors Analysis**
@@ -101,8 +103,6 @@ This was after the journey of the users have been concluded. This process made i
 **User Testing**
 
 User testing: I created a clickable prototype of the three experiments and tested it with users via Zoom. Feedback revealed that customers found the digital Clubcard scan code and PDF options very appealing, with most preferring the digital option. However, users also requested a physical, non-paid option for those with accessibility challenges, non-digital shoppers, and low-income groups, as the PDF format might not suit everyone.
-
-&nbsp;
 
 After iterating on the three experiments, the team went live with experiment 1(Nudge page optimization and address confirmation) which was the most preferred by the users.
 
