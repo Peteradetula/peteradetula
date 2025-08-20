@@ -88,7 +88,7 @@ const Footer = () => {
             </p>
             <Link href="https://calendly.com/adetulapeter/30min" target="_blank">
               <div className="group flex max-w-[360px] items-center justify-between gap-4 bg-primary bg-opacity-30 p-4 backdrop-blur-2xl">
-                <Image width={55} alt="logo" height={55} className="h-[55px] w-auto" src="/images/logo.png" />
+                <Image width={55} alt="logo" height={55} className="h-[55px] w-auto" src="/images/logo.jpg" />
                 <div>
                   <h6 className="font-satoshi text-sm font-bold text-white">Schedule a Free Meeting</h6>
                   <p className="text-sm text-white">1 spot left this month</p>
