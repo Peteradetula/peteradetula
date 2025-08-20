@@ -1,9 +1,12 @@
+'use client'
+
 import footerData from '@/data/footer.json'
 import arrowIcon from '@/public/images/icons/arrow-Icon.svg'
 import logo from '@/public/images/logo.svg'
 import Image from 'next/image'
 import Link from 'next/link'
 import FooterProvider from './FooterProvider'
+import { usePathname } from 'next/navigation'
 // import teamMembers from '@/data/teamMemberData.json'
 // import linkedinLogo from '@/public/images/icons/linkedin.png'
 // import twiterDarkLogo from '@/public/images/icons/x-twitter-dark.svg'
@@ -13,10 +16,14 @@ import FooterProvider from './FooterProvider'
 // import { LinkedinOutlined, MailOutlined } from '@ant-design/icons'
 
 const Footer = () => {
+  const pathName = usePathname()
+
   return (
     <FooterProvider>
-      <div className="container">
-        <div className="relative z-10 flex flex-col flex-wrap justify-center gap-y-10 sm:flex-row sm:justify-between sm:gap-y-16">
+      <div className="w-full px-4 md:px-16 lg:px-60">
+        {/* <div className="relative z-10 flex gap-16"> */}
+        {/* <div className="relative z-10 flex flex-col flex-wrap justify-center gap-y-10 sm:flex-row sm:justify-between sm:gap-y-16"> */}
+        <div className="relative z-10 flex flex-col flex-wrap gap-10 sm:flex-row lg:gap-32">
           <div className="pr-8 max-lg:basis-full">
             <div className="mb-4 flex items-center justify-between gap-4 sm:mb-8">
               <h5 className="font-satoshi text-sm font-bold uppercase tracking-[3px] text-white">Reach me</h5>
@@ -117,10 +124,10 @@ const Footer = () => {
                 {section.title}
               </h5>
               <ul>
-                {section.links.map(({ href, label }) => (
+                {section.links.map(({ href, off_href, label }) => (
                   <li className="mb-4" key={href}>
                     <Link
-                      href={href}
+                      href={pathName === '/' ? href : off_href || href}
                       className="block text-white transition-colors duration-300 hover:font-medium hover:text-primary">
                       {label}
                     </Link>

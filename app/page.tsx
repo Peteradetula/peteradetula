@@ -22,8 +22,12 @@ const Home = () => {
       <About page="home" />
       <Portfolio />
       <ClientsV3 />
-      <ServicesV8 />
-      <Community />
+      <section id="process">
+        <ServicesV8 />
+      </section>
+      <section id="community">
+        <Community />
+      </section>
       <FAQ page="home" />
       <Testimonial />
       <LetsChat />

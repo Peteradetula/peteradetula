@@ -2,18 +2,17 @@
   {
     "title": "Resources",
     "links": [
-      { "href": "/", "label": "Home" },
-      { "href": "/about", "label": "About" },
-      { "href": "/services", "label": "Services" },
-      { "href": "/projects", "label": "Projects" },
-      { "href": "/contact", "label": "Contact" }
+      { "href": "/#community", "off_href": "/#community", "label": "Join community" },
+      { "href": "/projects", "label": "Case study" },
+      { "href": "/about", "label": "About me" }
     ]
   },
   {
     "title": "Quick Links",
     "links": [
       { "href": "/faq", "label": "FAQ" },
-      { "href": "/contact", "label": "Let's chat" }
+      { "href": "/#process", "off_href": "/#process", "label": "Process" },
+      { "href": "/contact", "label": "Contact me" }
     ]
   }
 ]
