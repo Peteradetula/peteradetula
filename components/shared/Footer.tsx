@@ -6,7 +6,8 @@ import logo from '@/public/images/logo.svg'
 import Image from 'next/image'
 import Link from 'next/link'
 import FooterProvider from './FooterProvider'
-import { usePathname } from 'next/navigation'
+import { usePathname, useRouter } from 'next/navigation'
+import React, { useEffect } from 'react'
 // import teamMembers from '@/data/teamMemberData.json'
 // import linkedinLogo from '@/public/images/icons/linkedin.png'
 // import twiterDarkLogo from '@/public/images/icons/x-twitter-dark.svg'
@@ -17,6 +18,37 @@ import { usePathname } from 'next/navigation'
 
 const Footer = () => {
   const pathName = usePathname()
+  const router = useRouter()
+
+  useEffect(() => {
+    const hash = window.location.hash
+    if (hash && pathName === '/') {
+      setTimeout(() => {
+        const element = document.getElementById(hash.substring(1))
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' })
+        }
+      }, 100)
+    }
+  }, [pathName])
+
+  const handleSectionClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    if (href.startsWith('/#')) {
+      e.preventDefault()
+      const sectionId = href.substring(2) // Remove '/#'
+
+      if (pathName === '/') {
+        // Already on homepage, just scroll to section
+        const element = document.getElementById(sectionId)
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' })
+        }
+      } else {
+        // Navigate to homepage first, then scroll will be handled by useEffect
+        router.push(href)
+      }
+    }
+  }
 
   return (
     <FooterProvider>
@@ -128,6 +160,7 @@ const Footer = () => {
                   <li className="mb-4" key={href}>
                     <Link
                       href={href}
+                      onClick={(e) => handleSectionClick(e, href)}
                       className="block text-white transition-colors duration-300 hover:font-medium hover:text-primary">
                       {label}
                     </Link>
