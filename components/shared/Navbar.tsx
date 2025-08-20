@@ -1,7 +1,7 @@
 'use client'
 
-import logoDark from '@/public/images/logo-black.png'
-import logo from '@/public/images/logo.jpg'
+import logoDark from '@/public/images/favicon.png'
+import logo from '@/public/images/logo-black.png'
 import { gsap } from 'gsap'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -301,7 +301,7 @@ export default function Navbar() {
               />
               <Image
                 className="hidden max-h-[68px] w-auto dark:inline-block"
-                src={logo}
+                src={logoDark}
                 alt="logo"
                 width={50}
                 // width={136}
