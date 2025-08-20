@@ -9,9 +9,14 @@ import teamMemberData from '@/data/teamMemberData.json'
 
 const Community = () => {
   const [isModalOpen, setIsModalOpen] = useState(false)
-  const [email, setEmail] = useState('')
+  const [formData, setFormData] = useState({ name: '', email: '' })
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle')
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const { name, value } = e.target
+    setFormData((prev) => ({ ...prev, [name]: value }))
+  }
 
   const peterData = teamMemberData.find((member) => member.id === 'peter')
   const linkedinUrl = peterData?.socialLinks.linkedin || '#'
@@ -25,12 +30,12 @@ const Community = () => {
       const response = await fetch('https://formspree.io/f/xzzvqvpw', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email }),
+        body: JSON.stringify(formData),
       })
 
       if (response.ok) {
         setSubmitStatus('success')
-        setEmail('')
+        setFormData({ name: '', email: '' })
       } else {
         setSubmitStatus('error')
       }
@@ -131,18 +136,39 @@ const Community = () => {
               </button>
             </div>
 
-            <form onSubmit={handleWaitlistSubmit}>
-              <div className="mb-4">
-                <label htmlFor="waitlist-email" className="mb-2 block text-sm font-medium">
+            <form onSubmit={handleWaitlistSubmit} className="grid gap-[30px]">
+              <div>
+                <label
+                  htmlFor="waitlist-name"
+                  className="text-2xl leading-[1.2] tracking-[-0.48px] text-[#000000b3] dark:text-dark-100">
+                  Full Name
+                </label>
+                <input
+                  type="text"
+                  id="waitlist-name"
+                  name="name"
+                  value={formData.name}
+                  onChange={handleChange}
+                  placeholder="Enter your full name"
+                  className="mt-3 w-full border bg-backgroundBody py-4 pl-5 text-xl leading-[1.4] tracking-[0.4px] text-colorText focus:border-primary focus:outline-none dark:border-dark dark:bg-dark"
+                  required
+                />
+              </div>
+
+              <div>
+                <label
+                  htmlFor="waitlist-email"
+                  className="text-2xl leading-[1.2] tracking-[-0.48px] text-[#000000b3] dark:text-dark-100">
                   Email Address
                 </label>
                 <input
                   type="email"
                   id="waitlist-email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  placeholder="Enter your email"
-                  className="w-full border bg-backgroundBody px-3 py-2 focus:border-primary focus:outline-none dark:border-dark dark:bg-dark"
+                  name="email"
+                  value={formData.email}
+                  onChange={handleChange}
+                  placeholder="name@company.com"
+                  className="mt-3 w-full border bg-backgroundBody py-4 pl-5 text-xl leading-[1.4] tracking-[0.4px] text-colorText focus:border-primary focus:outline-none dark:border-dark dark:bg-dark"
                   required
                 />
               </div>
@@ -158,6 +184,17 @@ const Community = () => {
                 </div>
               )}
 
+              {/* <button
+                type="submit"
+                disabled={isSubmitting}
+                className="rv-button rv-button-primary block w-full disabled:opacity-50">
+                <div className="rv-button-top">
+                  <span>{isSubmitting ? 'Joining...' : 'Join Waitlist'}</span>
+                </div>
+                <div className="rv-button-bottom">
+                  <span className="text-nowrap">{isSubmitting ? 'Joining...' : 'Join Waitlist'}</span>
+                </div>
+              </button> */}
               <button
                 type="submit"
                 disabled={isSubmitting}
