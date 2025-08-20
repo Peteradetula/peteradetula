@@ -6,9 +6,10 @@ import CircleTextAnimation from './CircleTextAnimation'
 
 interface AboutProps {
   marquee?: boolean
+  page?: string
 }
 
-const About = ({ marquee = false }: AboutProps) => {
+const About = ({ marquee = false, page = 'about' }: AboutProps) => {
   const { revealRef } = useReveal()
 
   if (marquee) {
@@ -51,12 +52,32 @@ const About = ({ marquee = false }: AboutProps) => {
             We provide customized solutions for <br className="hidden sm:block" />
             enhancing your existing site or building <br className="hidden sm:block" />a brand-new digital platform from
             the ground up */}
-            I&apos;m an experienced product designer and UK&apos;s Global Talent (Tier 1) with a strong interest in
-            consumer psychology and how good design drives business performance.
-            <br />
-            <br />
-            Over the past few years, I&apos;ve worked on projects across a range of sectors, creating solutions that
-            balance user needs with business goals.
+            {page === 'about' ? (
+              <span>
+                As an endorsed Global Talent under Tech Nation in the UK, my mission is simple: design solutions that
+                make an impact worldwide while inspiring the next wave of AI and data enthusiasts to shape the future of
+                work.
+                <br />
+                <br />
+                I love tackling business challenges by finding smarter ways to solve problems, creating fresh
+                strategies, and experimenting with new ideas. For me, curiosity and exploration are the fuel, and growth
+                is the destination.
+                <br />
+                <br />
+                Over the years, I&apos;ve built a reputation for blending creativity with collaboration. I enjoy working
+                closely with teams, sharing insights, and sparking innovation together. I believe great design happens
+                when people connect, experiment, and aren&apos;t afraid to try something different.
+              </span>
+            ) : (
+              <span>
+                I&apos;m an experienced product designer and UK&apos;s Global Talent (Tier 1) with a strong interest in
+                consumer psychology and how good design drives business performance.
+                <br />
+                <br />
+                Over the past few years, I&apos;ve worked on projects across a range of sectors, creating solutions that
+                balance user needs with business goals.
+              </span>
+            )}
           </h3>
         </div>
       </div>

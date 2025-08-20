@@ -13,10 +13,8 @@ const ProjectHero = () => {
           </div>
 
           <h1 className="mb-3 mt-3.5 sm:mb-4 sm:mt-5 lg:mb-7 lg:mt-9">
-            Crafting{' '}
-            <span className="font-instrument italic">
-              Experiences <br />
-            </span>
+            Crafting Experiences, <br />
+            not just <span className="font-instrument italic">design</span>
           </h1>
         </RevealWrapper>
       </div>

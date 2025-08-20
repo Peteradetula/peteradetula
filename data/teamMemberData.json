@@ -4,7 +4,8 @@
     "name": "Peter Adetula",
     "password": "123",
     "role": "Product Designer",
-    "image": "/images/peteradetula.jpeg",
+    "image1": "/images/peteradetula.jpeg",
+    "image2": "/images/peter-adetula-b-and-w.jpg",
     "bio": "Passionate about building authentic solutions, I am a Product Designer with over 17 years of industry experience.",
     "socialLinks": {
       "linkedin": "https://www.linkedin.com/in/peter-adetula-a276a4121/",

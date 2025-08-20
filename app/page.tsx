@@ -19,7 +19,7 @@ const Home = () => {
     <LayoutOne>
       <Hero />
       <Video />
-      <About />
+      <About page="home" />
       <Portfolio />
       <ClientsV3 />
       <ServicesV8 />

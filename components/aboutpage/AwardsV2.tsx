@@ -3,10 +3,13 @@ import TextAppearAnimation from '../animation/TextAppearAnimation'
 import AwardItem from './AwardItem'
 
 const awards = [
-  { year: '2024', title: 'Site of the Year', organization: 'Awwwards', achievement: 'Gold Winner' },
-  { year: '2023', title: 'Design Excellence', organization: 'CSS Design Awards', achievement: 'Best UI Design' },
-  { year: '2022', title: 'Innovation Award', organization: 'Adobe Design', achievement: 'Grand Prize' },
-  { year: '2021', title: 'Best Portfolio', organization: 'Webby Awards', achievement: "People's Choice" },
+  { year: '2023', title: 'UK Global Talent', organization: 'Tech Nation', achievement: 'Exceptional promise' },
+  {
+    year: '2022',
+    title: 'Member',
+    organization: 'Interaction Design Foundation (IxDF)',
+    achievement: 'Global Design Leader',
+  },
 ]
 
 const AwardsV2 = () => {
@@ -23,7 +26,7 @@ const AwardsV2 = () => {
         </div>
         <TextAppearAnimation>
           <p className="text-appear max-w-[470px] lg:self-end">
-            Our commitment to exceptional design has earned global recognition and industry accolades.
+            My commitment to exceptional design has earned global recognition and industry accolades.
           </p>
         </TextAppearAnimation>
       </div>
