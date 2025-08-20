@@ -124,10 +124,10 @@ const Footer = () => {
                 {section.title}
               </h5>
               <ul>
-                {section.links.map(({ href, off_href, label }) => (
+                {section.links.map(({ href, label }) => (
                   <li className="mb-4" key={href}>
                     <Link
-                      href={pathName === '/' ? href : off_href || href}
+                      href={href}
                       className="block text-white transition-colors duration-300 hover:font-medium hover:text-primary">
                       {label}
                     </Link>
