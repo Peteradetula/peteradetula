@@ -45,7 +45,7 @@ const Marquee: React.FC<WithBorderProps> = ({ withBorder }) => {
               {data.map((item) => (
                 <div
                   key={item.id}
-                  className="z-50 flex h-24 w-48 flex-shrink-0 items-center justify-center border border-secondary/10 bg-backgroundBody dark:border-backgroundBody/10 dark:bg-dark">
+                  className="z-50 flex h-24 w-48 flex-shrink-0 items-center justify-center border border-secondary/10 bg-backgroundBody px-4 dark:border-backgroundBody/10 dark:bg-dark">
                   <img src={item.logo} alt={item.alt} className="inline-block dark:hidden" />
                   <img src={item.darkLogo} alt={item.alt} className="hidden dark:inline-block" />
                 </div>

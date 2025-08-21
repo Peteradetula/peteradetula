@@ -79,17 +79,38 @@ export const data = [
     alt: 'Tesco',
   },
 
-  {
-    id: 2,
-    logo: '/images/curva.png',
-    darkLogo: '/images/curva.png',
-    alt: 'Curva',
-  },
+  // {
+  //   id: 2,
+  //   logo: '/images/curva.png',
+  //   darkLogo: '/images/curva.png',
+  //   alt: 'Curva',
+  // },
 
   {
     id: 3,
     logo: '/images/shell.png',
     darkLogo: '/images/shell.png',
     alt: 'Shell',
+  },
+
+  {
+    id: 4,
+    logo: '/images/acumento.png',
+    darkLogo: '/images/acumento.png',
+    alt: 'Acumento',
+  },
+
+  {
+    id: 5,
+    logo: '/images/new-horizon.png',
+    darkLogo: '/images/new-horizon.png',
+    alt: 'New Horizon',
+  },
+
+  {
+    id: 6,
+    logo: '/images/pertinence.png',
+    darkLogo: '/images/pertinence.png',
+    alt: 'Pertinence',
   },
 ]
