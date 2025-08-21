@@ -290,19 +290,19 @@ export default function Navbar() {
           <div className="flex items-center justify-between">
             <Link href="/" className="relative z-10">
               <Image
-                className="inline-block h-8 w-8 dark:hidden md:h-[50px] md:w-[50px]"
+                className="inline-block h-[21.81px] w-8 dark:hidden md:h-[34.08px] md:w-[50px]"
                 src={logo}
                 alt="logo"
                 width={50}
-                height={50}
+                height={34.08}
                 priority
               />
               <Image
-                className="hidden h-8 w-8 dark:inline-block md:h-[50px] md:w-[50px]"
+                className="hidden h-[21.81px] w-8 dark:inline-block md:h-[34.08px] md:w-[50px]"
                 src={logoDark}
                 alt="logo"
                 width={50}
-                height={50}
+                height={34.08}
                 priority
               />
             </Link>

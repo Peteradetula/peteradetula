@@ -10,7 +10,10 @@ import '../scss/main.scss'
 export const metadata: Metadata = {
   title: 'Peter Adetula',
   icons: {
-    icon: '/images/favicon.png',
+    icon: [
+      { url: '/images/favicon.png', sizes: '32x21.81', type: 'image/png' },
+      { url: '/images/favicon.png', sizes: '16x10.91', type: 'image/png' },
+    ],
     shortcut: '/images/favicon.png',
     apple: '/images/favicon.png',
   },

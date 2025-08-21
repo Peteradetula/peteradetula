@@ -54,11 +54,11 @@ const Team = () => {
           className={`our-team-details flex flex-col justify-center gap-10 gap-x-[30px] border bg-backgroundBody p-5 dark:border-dark dark:bg-dark max-md:items-center max-md:justify-center lg:flex-row lg:p-10 ${isTransitioning ? 'transitioning' : ''}`}>
           <figure className="max-lg:w-full lg:min-h-[372px] lg:min-w-[330px]">
             <Image
-              src={selectedMember.image2}
               width={330}
               height={372}
               alt={selectedMember.name}
-              className="w-full object-cover"
+              src={selectedMember.image2}
+              className="h-full w-full rounded-[50%]"
             />
           </figure>
 
