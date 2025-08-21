@@ -287,26 +287,22 @@ export default function Navbar() {
         </div>
         <nav
           className={`fixed z-[1000] w-full px-5 pt-1 transition duration-300 ease-linear will-change-transform sm:px-8 sm:pt-5 ${isVisible ? 'translate-y-0' : '-translate-y-full'}`}>
-          <div className="flex justify-between">
+          <div className="flex items-center justify-between">
             <Link href="/" className="relative z-10">
               <Image
-                className="inline-block max-h-[68px] w-auto dark:hidden"
+                className="inline-block h-8 w-8 dark:hidden md:h-[50px] md:w-[50px]"
                 src={logo}
                 alt="logo"
                 width={50}
-                // width={136}
                 height={50}
-                // height={68}
                 priority
               />
               <Image
-                className="hidden max-h-[68px] w-auto dark:inline-block"
+                className="hidden h-8 w-8 dark:inline-block md:h-[50px] md:w-[50px]"
                 src={logoDark}
                 alt="logo"
                 width={50}
-                // width={136}
                 height={50}
-                // height={68}
                 priority
               />
             </Link>
