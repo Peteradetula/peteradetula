@@ -20,7 +20,7 @@ const AboutPage = () => {
         badgeTitle="About"
         title="About"
         italicTitle=""
-        description="As a product designer, I create intuitive digital experiences that blend form and function, crafting solutions that delight users and solve real-world problems."
+        description="My name is Peter Adetula and as an endorsed Global Talent under Tech Nation in the UK, my mission is simple: design solutions that make an impact worldwide while inspiring the next wave of AI and data enthusiasts to shape the future of work."
       />
       <Video />
       <About />

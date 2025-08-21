@@ -54,11 +54,11 @@ const About = ({ marquee = false, page = 'about' }: AboutProps) => {
             the ground up */}
             {page === 'about' ? (
               <span>
-                As an endorsed Global Talent under Tech Nation in the UK, my mission is simple: design solutions that
+                {/* As an endorsed Global Talent under Tech Nation in the UK, my mission is simple: design solutions that
                 make an impact worldwide while inspiring the next wave of AI and data enthusiasts to shape the future of
                 work.
                 <br />
-                <br />
+                <br /> */}
                 I love tackling business challenges by finding smarter ways to solve problems, creating fresh
                 strategies, and experimenting with new ideas. For me, curiosity and exploration are the fuel, and growth
                 is the destination.
