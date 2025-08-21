@@ -52,10 +52,10 @@ const Footer = () => {
 
   return (
     <FooterProvider>
-      <div className="w-full px-4 md:px-16 lg:px-60">
+      <div className="w-full px-5 md:px-16 lg:px-60">
         {/* <div className="relative z-10 flex gap-16"> */}
         {/* <div className="relative z-10 flex flex-col flex-wrap justify-center gap-y-10 sm:flex-row sm:justify-between sm:gap-y-16"> */}
-        <div className="relative z-10 flex flex-col flex-wrap gap-10 sm:flex-row lg:gap-32">
+        <div className="relative z-10 flex flex-col flex-wrap justify-between gap-10 sm:flex-row md:justify-center lg:justify-between lg:gap-32">
           <div className="pr-8 max-lg:basis-full">
             <div className="mb-4 flex items-center justify-between gap-4 sm:mb-8">
               <h5 className="font-satoshi text-sm font-bold uppercase tracking-[3px] text-white">Reach me</h5>
@@ -150,25 +150,27 @@ const Footer = () => {
             </Link>
           </div>
 
-          {footerData.map((section, index) => (
-            <div key={`Id_${index}`}>
-              <h5 className="mb-4 font-satoshi text-sm font-bold uppercase tracking-[3px] text-white sm:mb-8">
-                {section.title}
-              </h5>
-              <ul>
-                {section.links.map(({ href, label }) => (
-                  <li className="mb-4" key={href}>
-                    <Link
-                      href={href}
-                      onClick={(e) => handleSectionClick(e, href)}
-                      className="block text-white transition-colors duration-300 hover:font-medium hover:text-primary">
-                      {label}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
+          <div className="md: flex flex-col items-start gap-10 lg:flex-row lg:items-center lg:gap-24">
+            {footerData.map((section, index) => (
+              <div key={`Id_${index}`}>
+                <h5 className="mb-4 font-satoshi text-sm font-bold uppercase tracking-[3px] text-white sm:mb-8">
+                  {section.title}
+                </h5>
+                <ul>
+                  {section.links.map(({ href, label }) => (
+                    <li className="mb-4" key={href}>
+                      <Link
+                        href={href}
+                        onClick={(e) => handleSectionClick(e, href)}
+                        className="block text-white transition-colors duration-300 hover:font-medium hover:text-primary">
+                        {label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
 

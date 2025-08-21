@@ -16,8 +16,8 @@ const CircleTextAnimation = () => {
       const text = textRef.current
       if (!text) return
 
-      const originalText = '  Crafting Experiences, not just design'
-      const chars = originalText.trim().split('')
+      const originalText = '  Crafting Experiences, not just design     '
+      const chars = originalText.split('')
       const angleStep = 360 / chars.length // Distribute characters evenly
 
       const formattedText = chars
