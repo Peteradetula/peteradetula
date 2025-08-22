@@ -17,6 +17,7 @@
     "@radix-ui/react-visually-hidden": "^1.2.0",
     "@types/matter-js": "^0.19.8",
     "clsx": "^2.1.1",
+    "fs": "^0.0.1-security",
     "github-slugger": "^2.0.0",
     "gray-matter": "^4.0.3",
     "gsap": "^3.12.5",

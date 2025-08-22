@@ -4,8 +4,9 @@ import TextAppearAnimation from '../animation/TextAppearAnimation'
 
 const Process = () => {
   return (
-    <section className="pb-14 pt-14 md:pb-16 md:pt-16 lg:pb-[88px] lg:pt-[88px] xl:pb-[100px] xl:pt-[100px]">
-      <div className="container">
+    <section className="pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px]">
+      <div className="px-5 md:px-8 lg:px-16">
+        {/* <div className="container"> */}
         <TextAppearAnimation>
           <h3 className="text-appear lg:text[56px] mb-20 text-center max-md:text-3xl md:text-6xl lg:leading-[1.2] lg:tracking-[-1.68px]">
             How I do it?
@@ -13,16 +14,17 @@ const Process = () => {
         </TextAppearAnimation>
 
         <RevealWrapper className="relative after:absolute after:-z-10 after:block after:h-[1px] after:w-full after:bg-[#e5e5e5] after:content-[''] dark:after:bg-white/10 max-lg:before:absolute max-lg:before:bottom-[157px] max-lg:before:-z-10 max-lg:before:block max-lg:before:h-[1px] max-lg:before:w-full max-lg:before:bg-[#e5e5e5] max-lg:before:content-[''] dark:max-lg:before:bg-white/10 max-md:bottom-5 max-md:before:bottom-[137px] max-md:after:top-16 md:after:top-[105px]">
-          <div className="grid grid-cols-1 items-center justify-between gap-[30px] md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          <div className="grid grid-cols-1 items-center justify-between gap-[30px] md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4">
             <RevealWrapper className="text-center">
               <span className="relative after:absolute after:-bottom-[37px] after:left-[50%] after:z-50 after:h-5 after:w-5 after:-translate-x-[50%] after:rounded-full after:bg-secondary after:content-[''] dark:after:bg-backgroundBody max-md:text-3xl md:text-[64px] md:leading-[1.2] md:tracking-[-1.92px]">
                 01
               </span>
               <h3 className="mb-5 mt-16 max-md:text-3xl md:leading-[1.2] md:tracking-[-1.68px] md:text-[56PX]">
-                Request
+                Research
               </h3>
               <p className="text-base leading-[1.4] tracking-[0.32px]">
-                I start by understanding your needs, goals, and challenges through detailed discussions and research.
+                Gathering insights about users’ needs, behaviours, pain points, and the environment in which they
+                interact with a product.
               </p>
             </RevealWrapper>
 
@@ -31,10 +33,11 @@ const Process = () => {
                 02
               </span>
               <h3 className="mb-5 mt-16 max-md:text-3xl md:leading-[1.2] md:tracking-[-1.68px] md:text-[56PX]">
-                Approve
+                Conceptualise
               </h3>
               <p className="text-base leading-[1.4] tracking-[0.32px]">
-                I present my approach, timeline, and deliverables for your review and approval before we begin.
+                Defining the solution approach, Using research findings to decide what the product should do and how it
+                should work to meet user needs and business goals.
               </p>
             </RevealWrapper>
 
@@ -43,10 +46,10 @@ const Process = () => {
                 03
               </span>
               <h3 className="mb-5 mt-16 max-md:text-3xl md:leading-[1.2] md:tracking-[-1.68px] md:text-[56PX]">
-                Develop
+                Design
               </h3>
               <p className="text-base leading-[1.4] tracking-[0.32px]">
-                I create user-centered designs through research, prototyping, and iterative testing with your feedback.
+                Builds on the concepts from the previous stage and turns them into tangible, detailed solutions.
               </p>
             </RevealWrapper>
 
@@ -54,11 +57,9 @@ const Process = () => {
               <span className="relative after:absolute after:-bottom-[37px] after:left-[50%] after:z-10 after:h-5 after:w-5 after:-translate-x-[50%] after:rounded-full after:bg-secondary after:content-[''] dark:after:bg-backgroundBody max-md:text-3xl md:text-[64px] md:leading-[1.2] md:tracking-[-1.92px]">
                 04
               </span>
-              <h3 className="mb-5 mt-16 max-md:text-3xl md:leading-[1.2] md:tracking-[-1.68px] md:text-[56PX]">
-                Deliver
-              </h3>
+              <h3 className="mb-5 mt-16 max-md:text-3xl md:leading-[1.2] md:tracking-[-1.68px] md:text-[56PX]">Test</h3>
               <p className="text-base leading-[1.4] tracking-[0.32px]">
-                I provide polished designs with detailed handoffs and support throughout the implementation process.
+                Checking whether your design actually works for real users before it’s fully built or launched.
               </p>
             </RevealWrapper>
           </div>
