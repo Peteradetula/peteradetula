@@ -18,7 +18,12 @@ const AboutPage = () => {
     <LayoutOne>
       <PageHero
         badgeTitle="About"
-        title="Sketches of Me"
+        title={
+          <span>
+            Sketches of{' '}
+            <span className="inline-block font-instrument italic max-md:inline-block max-sm:pl-2 sm:mt-10">Me</span>
+          </span>
+        }
         italicTitle=""
         description="My name is Peter Adetula and as an endorsed Global Talent under Tech Nation in the UK, my mission is simple: design solutions that make an impact worldwide while inspiring the next wave of AI and data enthusiasts to shape the future of work."
       />
