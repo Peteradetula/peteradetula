@@ -8,7 +8,7 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react'
 
-import { SocialIcons } from '@/components/navbarCompo/social-icons'
+// import { SocialIcons } from '@/components/navbarCompo/social-icons'
 import { MenuList } from '../navbarCompo/menu-list'
 
 export default function Navbar() {
@@ -341,7 +341,7 @@ export default function Navbar() {
             {/* <p className="mb-4 w-full text-sm text-white md:mb-0 md:w-auto">
               2261 Market Street #5039 San Francisco, CA 94114
             </p> */}
-            <SocialIcons />
+            {/* <SocialIcons /> */}
           </div>
         </div>
       </nav>
