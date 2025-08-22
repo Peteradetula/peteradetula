@@ -1,9 +1,10 @@
+import { ReactElement } from 'react'
 import RevealWrapper from '../animation/RevealWrapper'
 import HeroGradientAnimation from './HeroGradientAnimation'
 
 interface PropsType {
   badgeTitle?: string
-  title: string
+  title: string | ReactElement
   italicTitle?: string
   description?: string
   spacing?: string

@@ -15,7 +15,12 @@ const ServicesPage = () => {
     <LayoutOne>
       <PageHero
         badgeTitle="Services"
-        title="Design & Beyond "
+        title={
+          <span>
+            Design &{' '}
+            <span className="inline-block font-instrument italic max-md:inline-block max-sm:pl-2 sm:mt-10">Beyond</span>
+          </span>
+        }
         italicTitle=""
         scale
         description="I help teams and businesses craft meaningful digital experiences by combining design, strategy, and technology. My experiences cover the full spectrum, from shaping ideas into user-friendly products to ensuring seamless delivery."
