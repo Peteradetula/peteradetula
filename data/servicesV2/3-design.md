@@ -5,7 +5,7 @@ coverImage: '/images/services/services-details2-img.png'
 badge: 'Services details'
 feature:
   [
-    'Turning wireframes into high-fidelity mockups with colours, typography, imagery, and branding applied. Also, applying design principles so the product is intuitive, inclusive',
+    'Turning wireframes into high-fidelity mockups with colours, typography, imagery and branding applied. Also, applying design principles so the product is intuitive, inclusive',
     'Specifying how elements respond to user actions using animations, transitions etc.',
   ]
 ---
@@ -16,7 +16,7 @@ This is where concepts come to life through thoughtful visual design and interac
 
 ### My design process includes
 
-Visual Design: I create high-fidelity mockups that bring your brand to life through carefully chosen typography, color palettes, and imagery that resonate with your target audience.
+Visual Design: I create high-fidelity mockups that bring your brand to life through carefully chosen typography, color palettes and imagery that resonate with your target audience.
 
 Interaction Design: I design smooth, meaningful interactions and micro-animations that guide users through your product and provide clear feedback for every action.
 

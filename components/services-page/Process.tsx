@@ -69,7 +69,7 @@ const Process = () => {
           <div className="mx-auto block w-full text-center md:inline-block md:w-auto">
             <Link href="/contact" className="rv-button rv-button-sm rv-button-primary block md:inline-block">
               <div className="rv-button-top">
-                <span>Lets Starts</span>
+                <span>Let's Start</span>
               </div>
               <div className="rv-button-bottom">
                 <span className="text-nowrap">Lets Starts</span>

@@ -18,7 +18,7 @@ const Portfolio = () => {
         <div className="mb-10 flex flex-col items-start justify-center gap-x-10 gap-y-6 md:mb-20 md:flex-row md:items-end lg:justify-start">
           <div className="flex-1">
             <RevealWrapper className="rv-badge reveal-me">
-              <span className="rv-badge-text">My Portfolio</span>
+              <span className="rv-badge-text">Featured Works</span>
             </RevealWrapper>
             <TextAppearAnimation>
               <h2 className="text-appear mt-3 md:mt-5">
@@ -30,8 +30,8 @@ const Portfolio = () => {
           <div className="flex-1">
             <TextAppearAnimation>
               <p className="text-appear md:text-right">
-                Discover how I bring brands to life with impactful digital solutions. My portfolio showcases quality and
-                creativity in every project.
+                Discover how I bring ideas to life by combining user needs with business goals to solve real human
+                problems. My work brings ideas to life with creativity, impact and purpose.
               </p>
             </TextAppearAnimation>
             <RevealWrapper as="ul" className="reveal-me mt-5 justify-self-end max-md:w-full md:mt-10">
