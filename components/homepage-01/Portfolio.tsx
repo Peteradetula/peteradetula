@@ -18,7 +18,7 @@ const Portfolio = () => {
         <div className="mb-10 flex flex-col items-start justify-center gap-x-10 gap-y-6 md:mb-20 md:flex-row md:items-end lg:justify-start">
           <div className="flex-1">
             <RevealWrapper className="rv-badge reveal-me">
-              <span className="rv-badge-text">Featured Works</span>
+              <span className="rv-badge-text">Featured Work</span>
             </RevealWrapper>
             <TextAppearAnimation>
               <h2 className="text-appear mt-3 md:mt-5">
@@ -38,10 +38,10 @@ const Portfolio = () => {
               <li className="mx-auto block w-full text-center md:inline-block md:w-auto">
                 <Link href="/projects" className="rv-button rv-button-white block md:inline-block">
                   <div className="rv-button-top">
-                    <span>Explore My Portfolio</span>
+                    <span>Explore Featureed Work</span>
                   </div>
                   <div className="rv-button-bottom">
-                    <span>Explore My Portfolio</span>
+                    <span>Explore Featureed Work</span>
                   </div>
                 </Link>
               </li>
