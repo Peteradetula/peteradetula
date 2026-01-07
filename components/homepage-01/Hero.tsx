@@ -17,7 +17,7 @@ const Hero = () => {
             <br />
             into clarity through
             <br />
-            <i className="font-instrument italic">design</i> that&apos;s intuitive, purposeful, and human.
+            <i className="font-instrument italic">design</i> that&apos;s intuitive, purposeful and human.
           </h1>
           <p className="mx-auto mb-10 max-w-xl md:mb-14 lg:max-w-[750px] xl:mb-[76px]">
             Bringing visions to life and turning ideas into experiences people love through thoughtful design, smart
