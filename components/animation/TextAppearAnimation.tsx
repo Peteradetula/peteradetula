@@ -100,7 +100,7 @@ const TextAppearAnimation: FC<AnimatedTextProps> = ({ children, animationOptions
       wordSplitRefs.current.forEach((split) => split.revert())
       hasAnimatedRef.current = false
 
-      if (elementRef.current) {
+      if (elementRef?.current) {
         ScrollTrigger.getAll().forEach((trigger) => {
           if (trigger.vars.trigger === elementRef.current) {
             trigger.kill()
@@ -121,3 +121,4 @@ const TextAppearAnimation: FC<AnimatedTextProps> = ({ children, animationOptions
 }
 
 export default TextAppearAnimation
+
