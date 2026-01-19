@@ -22,6 +22,8 @@ interface AnimatedTextProps {
   animationOptions?: Partial<gsap.TweenVars>
 }
 
+
+
 const TextAppearAnimation: FC<AnimatedTextProps> = ({ children, animationOptions = {} }) => {
   const elementRef = useRef<HTMLElement | null>(null)
   const titleTextRef = useRef<SplitType | null>(null)
@@ -32,6 +34,17 @@ const TextAppearAnimation: FC<AnimatedTextProps> = ({ children, animationOptions
   useEffect(() => {
     animationOptionsRef.current = animationOptions
   }, [animationOptions])
+
+
+  useEffect(() => {
+    const el = elementRef.current
+    return () => {
+      if (!el) return
+      ScrollTrigger.getAll().forEach((trigger) => {
+        if (trigger.vars.trigger === el) trigger.kill()
+      })
+    }
+  }, [])
 
   useGSAP(
     () => {
@@ -120,3 +133,4 @@ const TextAppearAnimation: FC<AnimatedTextProps> = ({ children, animationOptions
 }
 
 export default TextAppearAnimation
+
