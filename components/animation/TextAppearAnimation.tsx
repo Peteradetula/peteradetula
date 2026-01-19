@@ -3,7 +3,8 @@ import { useGSAP } from '@gsap/react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
 import { cloneElement, createElement, FC, isValidElement, ReactElement, ReactNode, useEffect, useRef } from 'react'
-import SplitType from 'split-type'
+import SplitType from 'split-type
+
 
 interface AnimatedTextProps {
   children: ReactNode
@@ -16,6 +17,7 @@ const TextAppearAnimation: FC<AnimatedTextProps> = ({ children, animationOptions
   const wordSplitRefs = useRef<SplitType[]>([])
   const hasAnimatedRef = useRef(false)
   const animationOptionsRef = useRef(animationOptions)
+  const elementRef = useRef<HTMLElement | null>(null)
 
   useEffect(() => {
     animationOptionsRef.current = animationOptions
@@ -97,18 +99,24 @@ const TextAppearAnimation: FC<AnimatedTextProps> = ({ children, animationOptions
   useEffect(() => {
     return () => {
       titleTextRef.current?.revert()
-      wordSplitRefs.current.forEach((split) => split.revert())
+  
+      wordSplitRefs.current.forEach((split) => {
+        split?.revert()
+      })
+  
       hasAnimatedRef.current = false
-
-      if (elementRef?.current) {
-        ScrollTrigger.getAll().forEach((trigger) => {
-          if (trigger.vars.trigger === elementRef.current) {
-            trigger.kill()
-          }
-        })
-      }
+  
+      const el = elementRef.current
+      if (!el) return
+  
+      ScrollTrigger.getAll().forEach((trigger) => {
+        if (trigger.vars.trigger === el) {
+          trigger.kill()
+        }
+      })
     }
   }, [])
+
 
   if (isValidElement(children)) {
     return cloneElement(children as ReactElement, {
@@ -121,4 +129,5 @@ const TextAppearAnimation: FC<AnimatedTextProps> = ({ children, animationOptions
 }
 
 export default TextAppearAnimation
+
 
