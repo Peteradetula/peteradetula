@@ -5,13 +5,21 @@ import HeroGradientAnimation from '@/components/animation/HeroGradientAnimation'
 
 type ServicesHeroProps = {
   badgeTitle?: string
-  title: string
+  title?: string
   description?: string
+  scale?: boolean
 }
 
-export default function ServicesHero({ badgeTitle, title, description }: ServicesHeroProps) {
+export default function ServicesHero({ badgeTitle, title, description, scale }: ServicesHeroProps) {
   return (
-    <section className="relative z-50 overflow-hidden pb-14 pt-28 md:pb-16 md:pt-[155px] lg:pb-[88px] lg:pt-[177px] xl:pb-[100px]">
+    <section
+      className={[
+        'relative z-50 overflow-hidden pb-14 pt-28 md:pb-16 md:pt-[155px] lg:pb-[88px] lg:pt-[177px] xl:pb-[100px]',
+        scale ? 'rv-hero--scale' : '',
+      ]
+        .filter(Boolean)
+        .join(' ')}
+    >
       <HeroGradientAnimation />
 
       <div className="container">
@@ -22,7 +30,7 @@ export default function ServicesHero({ badgeTitle, title, description }: Service
             </div>
           ) : null}
 
-          <h1 className="mb-3">{title}</h1>
+          {title ? <h1 className="mb-3">{title}</h1> : null}
           {description ? <p className="mx-auto max-w-[780px]">{description}</p> : null}
         </div>
 
