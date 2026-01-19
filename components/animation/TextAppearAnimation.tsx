@@ -3,7 +3,8 @@ import { useGSAP } from '@gsap/react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
 import { cloneElement, createElement, FC, isValidElement, ReactElement, ReactNode, useEffect, useRef } from 'react'
-import SplitType from 'split-type
+import SplitType from 'split-type'
+
 
 
 interface AnimatedTextProps {
@@ -129,5 +130,6 @@ const TextAppearAnimation: FC<AnimatedTextProps> = ({ children, animationOptions
 }
 
 export default TextAppearAnimation
+
 
 
