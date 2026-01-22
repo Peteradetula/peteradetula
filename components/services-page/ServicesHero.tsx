@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import HeroGradientAnimation from '@/components/animation/HeroGradientAnimation'
+import HeroGradientAnimation from '@/components/shared/HeroGradientAnimation'
 
 type ServicesHeroProps = {
   badgeTitle?: string
@@ -54,3 +54,4 @@ export default function ServicesHero({ badgeTitle, title, description, scale }: 
     </section>
   )
 }
+
