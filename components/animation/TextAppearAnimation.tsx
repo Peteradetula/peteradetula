@@ -107,20 +107,23 @@ const TextAppearAnimation: FC<AnimatedTextProps> = ({ children, animationOptions
     { scope: elementRef, dependencies: [] },
   )
 
+
   useEffect(() => {
-    return () => {
-      titleTextRef.current?.revert()
-      wordSplitRefs.current.forEach((split) => split?.revert())
-      hasAnimatedRef.current = false
+  const el = elementRef.current
 
-      const el = elementRef.current
-      if (!el) return
+  return () => {
+    titleTextRef.current?.revert()
+    wordSplitRefs.current.forEach((split) => split?.revert())
+    hasAnimatedRef.current = false
 
-      ScrollTrigger.getAll().forEach((trigger) => {
-        if (trigger.vars.trigger === el) trigger.kill()
-      })
-    }
-  }, [])
+    if (!el) return
+
+    ScrollTrigger.getAll().forEach((trigger) => {
+      if (trigger.vars.trigger === el) trigger.kill()
+    })
+  }
+}, [])
+
 
   if (isValidElement(children)) {
     return cloneElement(children as ReactElement, {
@@ -133,4 +136,5 @@ const TextAppearAnimation: FC<AnimatedTextProps> = ({ children, animationOptions
 }
 
 export default TextAppearAnimation
+
 
